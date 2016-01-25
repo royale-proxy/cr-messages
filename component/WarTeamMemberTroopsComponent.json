@@ -1,0 +1,8 @@
+{
+  "name": "WarTeamMemberTroopsComponent",
+  "fields": [
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "ResourceComponent[]"}
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": 24715,
+  "name": "GlobalChatLine",
+  "fields": [
+    {"name": "text", "type": "STRING"},
+    {"name": "userName", "type": "STRING"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"name": "userId", "type": "LONG"},
+    {"name": "homeId", "type": "LONG"},
+    {"name": "clan", "type": "?ClanIdComponent"}
+  ]
+}

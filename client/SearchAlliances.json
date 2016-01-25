@@ -1,0 +1,15 @@
+{
+	"id" : 14324,
+	"name" : "SearchAlliances",
+	"fields" : [
+    	{"name": "searchString", "type" : "STRING"},
+    	{"name": "warFrequency", "type" : "INT"},
+    	{"name": "clanLocation", "type" : "INT"},
+    	{"name": "minMembers", "type" : "INT"},
+    	{"name": "maxMembers", "type" : "INT"},
+    	{"name": "trophyLimit", "type" : "INT"},
+    	{"name": "onlyClanUserCanJoin", "type" : "BYTE"},
+    	{"type" : "INT"},
+    	{"type" : "INT"}
+  	]
+}

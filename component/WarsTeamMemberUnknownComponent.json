@@ -1,0 +1,10 @@
+{
+  "name": "WarsTeamMemberUnknownComponent",
+  "fields": [
+    {"name": "name", "type": "STRING"},
+    {"name": "position", "type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

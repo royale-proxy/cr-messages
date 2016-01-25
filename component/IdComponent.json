@@ -1,0 +1,6 @@
+{
+  "name": "IdComponent",
+  "fields": [
+    {"name": "id", "type": "LONG"}
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "name": "ClanComponent",
+  "fields": [
+    {"name": "clanId", "type": "LONG"},
+    {"name": "clanName", "type": "STRING"},
+    {"name": "badge", "type": "INT"},
+    {"type": "INT"},
+    {"name": "rank", "type": "INT"}
+  ]
+}

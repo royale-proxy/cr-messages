@@ -1,0 +1,8 @@
+{
+  "id": 24318,
+  "name": "AllianceStreamEntryRemoved",
+  "fields": [
+    {"type": "INT"},
+    {"name": "messageId", "type": "INT"}
+  ]
+}

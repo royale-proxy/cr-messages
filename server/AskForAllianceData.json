@@ -1,0 +1,7 @@
+{
+  "id": 14302,
+  "name": "AskForAllianceData",
+  "fields": [
+    {"name": "clanId", "type": "LONG"}
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": 24308,
+  "name": "AllianceMember",
+  "fields": [
+    {"type": "LONG"},
+    {"type": "STRING"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "BYTE"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "?LONG"}
+  ]
+}

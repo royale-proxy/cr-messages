@@ -1,0 +1,8 @@
+{
+  "name": "UnitComponent",
+  "fields": [
+    {"name": "typeId", "type": "INT"},
+    {"name": "count", "type": "INT"},
+    {"name": "level", "type": "INT"}
+  ]
+}

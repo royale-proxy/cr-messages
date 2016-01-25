@@ -1,0 +1,8 @@
+{
+  "id": 25006,
+  "name": "AllianceWarAttackEvent",
+  "fields": [
+     {"type": "WarTeamMembers"},
+     {"type": "INT"}
+  ]
+}

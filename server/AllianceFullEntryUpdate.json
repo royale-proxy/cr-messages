@@ -1,0 +1,27 @@
+{
+  "id": 24324,
+  "name": "AllianceFullEntryUpdate",
+  "fields": [
+    {"name": "clanDescription", "type": "STRING"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "BYTE"},
+    {"name": "clanId", "type": "LONG"},
+    {"name": "clanName", "type": "STRING"},
+    {"name": "clanbadge", "type": "INT"},
+    {"name": "clanInviteType", "type": "INT"},
+    {"name": "memberCount", "type": "INT"},
+    {"name": "totalTrophies", "type": "INT"},
+    {"name": "requiredTrophies", "type": "INT"},
+    {"name": "clanWarsWon", "type": "INT"},
+    {"name": "clanWarsLost", "type": "INT"},
+    {"name": "clanWarsTied", "type": "INT"},
+    {"name": "clanLanguage", "type": "INT"},
+    {"name": "clanWarFrequency", "type": "INT"},
+    {"name": "clanLocation", "type": "INT"},
+    {"name": "clanPerksPoints", "type": "INT"},
+    {"name": "clanLevel", "type" : "INT"}
+  ]
+}

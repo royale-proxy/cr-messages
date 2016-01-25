@@ -1,0 +1,20 @@
+{
+  "name": "clanMembers",
+  "fields": [
+    {"name": "id", "type": "LONG"},
+    {"name": "name", "type": "STRING"},
+    {"name": "role", "type": "INT"},
+    {"name": "level", "type": "INT"},
+    {"name": "leagueLevel", "type": "INT"},
+    {"name": "trophies", "type": "INT"},
+    {"name": "troopsDonated", "type": "INT"},
+    {"name": "troopsReceived", "type": "INT"},
+    {"name": "rank", "type": "INT"},
+    {"name": "previousRank", "type": "INT"},
+    {"name": "newMember", "type": "BYTE"},
+    {"type": "INT"},
+    {"name": "clanWarPreference", "type": "INT"},
+    {"type": "BYTE"},
+    {"name": "id2", "type": "LONG"}
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "id": 15001,
+  "name": "AllianceWarAttackAvatar",
+  "fields": [
+    {"name": "homeId", "type": "LONG"}
+  ]
+}

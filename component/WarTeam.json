@@ -1,0 +1,17 @@
+{
+  "name": "WarTeam",
+  "fields": [
+    {"name": "clanId", "type": "LONG"},
+    {"name": "clanName", "type": "STRING"},
+    {"type": "INT"},
+    {"name": "clanLevel", "type": "INT"},
+    {"type": "WarTeamMembers[]"},
+    {"type": "BYTE"},
+    {"type": "INT[]"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

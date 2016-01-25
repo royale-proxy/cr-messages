@@ -1,0 +1,8 @@
+{
+	"id" : 24310,
+	"name" : "AllianceList",
+	"fields" : [
+    	{"name": "searchAlliance", "type" : "STRING"},
+    	{"name": "searchEntries", "type": "searchEntry[]"}
+  	]
+}

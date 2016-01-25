@@ -1,0 +1,7 @@
+{
+  "name": "ClanIdComponent",
+  "fields": [
+    {"name": "clanId", "type": "LONG"},
+    {"name": "clanName", "type": "STRING"}
+  ]
+}

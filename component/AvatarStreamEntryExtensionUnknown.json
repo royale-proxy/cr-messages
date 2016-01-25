@@ -1,0 +1,7 @@
+{
+  "name": "AvatarStreamEntryExtensionUnknown",
+  "fields": [
+    {"type": "INT"},
+    {"type": "LONG"}
+  ]
+}

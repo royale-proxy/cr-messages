@@ -1,0 +1,24 @@
+{
+  "id": 20104,
+  "name": "LoginOk",
+  "fields": [
+    {"name": "userId", "type": "LONG"},
+    {"name": "homeId", "type": "LONG"},
+    {"name": "userToken", "type": "STRING"},
+    {"name": "facebookId", "type": "STRING"},
+    {"name": "gameCenterId", "type": "STRING"},
+    {"name": "majorVersion", "type": "INT"},
+    {"name": "minorVersion", "type": "INT"},
+    {"name": "revision", "type": "INT"},
+    {"name": "environment", "type": "STRING"},
+    {"name": "loginCount", "type": "INT"},
+    {"name": "timeOnline", "type": "INT"},
+    {"type": "INT"},
+    {"name": "facebookAppId", "type": "STRING"},
+    {"name": "lastLoginDate", "type": "STRING"},
+    {"name": "joinDate", "type": "STRING"},
+    {"type": "INT"},
+    {"name": "googlePlusId", "type": "STRING"},
+    {"name": "country", "type": "STRING"}
+  ]
+}

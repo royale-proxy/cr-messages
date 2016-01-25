@@ -1,0 +1,7 @@
+{
+  "name": "AllianceDonation",
+  "fields": [
+    {"name": "userId", "type": "LONG"},
+    {"name": "troops", "type": "ResourceComponent[]"}
+  ]
+}

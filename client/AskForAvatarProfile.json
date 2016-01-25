@@ -1,0 +1,9 @@
+{
+  "id": 14325,
+  "name": "AskForAvatarProfile",
+  "fields": [
+    {"type": "LONG"},
+    {"type": "LONG"},
+    {"type": "?LONG"}
+  ]
+}

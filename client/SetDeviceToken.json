@@ -1,0 +1,7 @@
+{
+  "id": 10113,
+  "name" : "SetDeviceToken",
+  "fields" : [
+    {"name" : "token", "type" : "BYTE[]"}
+  ]
+}

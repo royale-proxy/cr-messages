@@ -1,0 +1,16 @@
+{
+  "id": 25003,
+  "name": "AllianceWarAttackData",
+  "fields": [
+     {"type": "UserComponent"},
+     {"name": "resources", "type": "ResourceListComponent"},
+     {"type": "INT"},
+     {"type": "INT"},
+     {"name": "homeId", "type": "LONG"},
+     {"name": "remainingShield", "type": "INT"},
+     {"type": "INT", "default": 1200},
+     {"type": "INT", "default": 60},
+     {"name": "enemyVillage", "type": "?ZIP_STRING"},
+     {"name": "enemyId", "type": "LONG"}
+  ]
+}

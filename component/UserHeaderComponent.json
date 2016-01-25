@@ -1,0 +1,7 @@
+{
+  "name": "UserHeaderComponent",
+  "fields": [
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

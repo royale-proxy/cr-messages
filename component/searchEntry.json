@@ -1,0 +1,20 @@
+{
+	"name" : "searchEntry",
+	"fields" : [
+    	{"name": "clanId", "type" : "LONG"},
+    	{"name": "clanName", "type" : "STRING"},
+    	{"name": "clanBadge", "type" : "INT"},
+    	{"name": "inviteType", "type" : "INT"},
+    	{"name": "currentMembers", "type" : "INT"},
+    	{"name": "clanTrophies", "type" : "INT"},
+    	{"name": "requiredTrophies", "type" : "INT"},
+    	{"name": "warsWon", "type" : "INT"},
+    	{"name": "warsLost", "type" : "INT"},
+    	{"name": "warsTied", "type" : "INT"},
+    	{"name": "clanLanguage", "type" : "INT"},
+    	{"name": "clanWarFrequency", "type" : "INT"},
+    	{"name": "clanLocation", "type" : "INT"},
+    	{"name": "clanPerksPoints", "type" : "INT"},
+    	{"name": "clanLevel", "type" : "INT"}
+  	]
+}

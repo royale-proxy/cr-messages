@@ -1,0 +1,11 @@
+{
+  "id": 24326,
+  "name": "AllianceWarAttackVillageHiddenObjectData",
+  "fields": [
+    {"type": "INT"},
+    {"name": "teslas", "type": "STRING"},
+    {"type": "INT"},
+    {"name": "traps", "type": "STRING"},
+    {"name": "garrison", "type": "UnitComponent[]"}
+  ]
+}

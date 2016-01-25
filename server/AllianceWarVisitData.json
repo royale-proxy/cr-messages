@@ -1,0 +1,13 @@
+{
+  "id": 25000,
+  "name": "AllianceWarVisitData",
+  "fields": [
+    {"name": "userId", "type": "LONG"},
+    {"name": "homeId", "type": "LONG"},
+    {"name": "homeVillage", "type": "ZIP_STRING"},
+    {"type": "INT"},
+    {"type": "BOOLEAN"},
+    {"name": "user", "type": "UserComponent"},
+    {"name": "resources", "type": "ResourceListComponent"}
+  ]
+}

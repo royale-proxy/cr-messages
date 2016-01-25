@@ -1,0 +1,12 @@
+{
+  "id":24335,
+  "name": "AllianceWarData",
+  "fields": [
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "WarTeam"},
+    {"type": "?WarTeam"},
+    {"type": "?LONG"},
+    {"type": "INT[]"}  
+  ]
+}

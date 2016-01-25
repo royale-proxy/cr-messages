@@ -1,0 +1,21 @@
+{
+  "name": "ResourceListComponent",
+  "fields": [
+    {"name": "resourceCapacities", "type": "ResourceComponent[]"},
+    {"name": "resourceCounts", "type": "ResourceComponent[]"},
+    {"name": "unitCounts", "type": "ResourceComponent[]"},
+    {"name": "spellCounts", "type": "ResourceComponent[]"},
+    {"name": "unitLevels", "type": "ResourceComponent[]"},
+    {"name": "spellLevels", "type": "ResourceComponent[]"},
+    {"name": "heroLevels", "type": "ResourceComponent[]"},
+    {"name": "heroHealth", "type": "ResourceComponent[]"},
+    {"name": "heroState", "type": "ResourceComponent[]"},
+    {"name": "allianceUnits", "type": "UnitComponent[]"},
+    {"name": "missions", "type": "INT[]"},
+    {"name": "achievements", "type": "INT[]"},
+    {"name": "achievementProgress", "type": "ResourceComponent[]"},
+    {"name": "goblinStars", "type": "ResourceComponent[]"},
+    {"name": "goblinGold", "type": "ResourceComponent[]"},
+    {"name": "goblinElixir", "type": "ResourceComponent[]"}
+  ]
+}
