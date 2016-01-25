@@ -7,6 +7,6 @@
     {"type": "WarTeam"},
     {"type": "?WarTeam"},
     {"type": "?LONG"},
-    {"type": "INT[]"}  
+    {"type": "INT[]"}
   ]
 }

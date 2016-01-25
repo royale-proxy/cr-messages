@@ -1,5 +1,5 @@
 {
-  "name": "clanMembers",
+  "name": "ClanMembers",
   "fields": [
     {"name": "id", "type": "LONG"},
     {"name": "name", "type": "STRING"},

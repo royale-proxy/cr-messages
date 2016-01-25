@@ -1,5 +1,5 @@
 {
-  "id":24340, 
+  "id":24340,
   "name": "BookmarksList",
   "fields": [
     {"type": "LONG[]"}
