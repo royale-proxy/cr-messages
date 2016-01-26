@@ -21,6 +21,6 @@
     {"type": "INT"},
     {"name": "clanInWar", "type": "BYTE"},
     {"name": "warID", "type": "LONG"},
-    {"name": "clanMembers", "type": "clanMembers[]"}
+    {"name": "clanMembers", "type": "ClanMembers[]"}
   ]
 }
