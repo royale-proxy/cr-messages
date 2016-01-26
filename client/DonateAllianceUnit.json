@@ -1,0 +1,10 @@
+{
+  "id": 14310,
+  "name": "DonateAllianceUnit",
+  "fields": [
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

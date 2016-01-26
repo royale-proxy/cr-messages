@@ -1,7 +1,7 @@
 {
   "id": 14113,
-  "name" : "VisitHome",
-  "fields" : [
-    {"name" : "homeId", "type" : "LONG"}
+  "name": "VisitHome",
+  "fields": [
+    {"name": "homeId", "type": "LONG"}
   ]
 }

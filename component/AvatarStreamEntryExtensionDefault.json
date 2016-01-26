@@ -2,6 +2,7 @@
   "name": "AvatarStreamEntryExtensionDefault",
   "fields": [
     {"type": "LONG"},
+    {"type": "BYTE"},
     {"type": "LONG"},
     {"type": "STRING"},
     {"type": "INT"},

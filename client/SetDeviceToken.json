@@ -1,7 +1,8 @@
 {
   "id": 10113,
-  "name" : "SetDeviceToken",
-  "fields" : [
-    {"name" : "token", "type" : "BYTE[]"}
+  "name": "SetDeviceToken",
+  "fields": [
+    {"name": "token", "type": "STRING"},
+    {"type": "INT"}
   ]
 }

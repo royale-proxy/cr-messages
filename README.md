@@ -2,32 +2,32 @@ Protocol Definition Files
 =========================
 
 Clash messages are passed between client and server in PDUs containing an integer message identifier
-and a binary payload. The files in this package are used to map the identifier to a message 
+and a binary payload. The files in this package are used to map the identifier to a message
 structure definition so that the binary payload can be parsed.
 
-Each message structure is defined in an individual JSON file. The name of the file is not 
+Each message structure is defined in an individual JSON file. The name of the file is not
 significant, but generally it corresponds to the type name of the message.
 
 Type System
 ===========
 
-Each file defines a type. Types are referred to by their *name* attribute or, for top level 
+Each file defines a type. Types are referred to by their *name* attribute or, for top level
 messages, by their *id* attribute (the identifier passed in the PDU).
 
-Using just the *name* and *id* attributes we can define simple structures such as the 
+Using just the *name* and *id* attributes we can define simple structures such as the
 [KeepAlive](client/KeepAlive.json) message:
 
 ```json
 {
   "id": 10108,
-  "name" : "KeepAlive"
+  "name": "KeepAlive"
 }
 ```
 
-To read more complex messages we need to define the field list that makes up the payload. For 
+To read more complex messages we need to define the field list that makes up the payload. For
 example, the [EndClientTurn](client/EndClientTurn.json) message comprises three fields; *tick* (the
-time that the command was issued), *checksum* (the game state checksum), and *commands*, an array of 
-[CommandComponent](client/CommandComponent.json) structures: 
+time that the command was issued), *checksum* (the game state checksum), and *commands*, an array of
+[CommandComponent](client/CommandComponent.json) structures:
 
 
 ```json
@@ -35,9 +35,9 @@ time that the command was issued), *checksum* (the game state checksum), and *co
   "id": 14102,
   "name": "EndClientTurn",
   "fields": [
-    {"name" : "tick", "type" : "INT"},
-    {"name" : "checksum", "type" : "INT"},
-    {"name" : "commands", "type" : "CommandComponent[]"}
+    {"name": "tick", "type": "INT"},
+    {"name": "checksum", "type": "INT"},
+    {"name": "commands", "type": "CommandComponent[]"}
   ]
 }
 ```
@@ -50,15 +50,15 @@ Primitives
 ----------
 
 Five primitive types are defined.
-                                                           
-- **BOOLEAN:** A single bit, read in little endian order. All other primitives are read from byte 
-  boundaries. 
 
-- **BYTE:** One byte. 
+- **BOOLEAN:** A single bit, read in little endian order. All other primitives are read from byte
+  boundaries.
+
+- **BYTE:** One byte.
 
 - **INT:** Four bytes, big-endian
 
-- **LONG:** Eight bytes, big-endian 
+- **LONG:** Eight bytes, big-endian
 
 - **STRING:** An integer length, then a UTF-8 encoded string.
 
@@ -67,10 +67,10 @@ Five primitive types are defined.
 Arrays
 ------
 
-Arrays types are defined by appending square brackets to a type name, e.g. "INT[5]" defines an array 
-of five ints. If the size specifier is omitted the size of the array will be read/written as an 
-integer before the array contents. E.g. a field of type "CommandComponent[]" would be written as an 
-INT (the array size), followed by the contents of the array, a list of command components. 
+Arrays types are defined by appending square brackets to a type name, e.g. "INT[5]" defines an array
+of five ints. If the size specifier is omitted the size of the array will be read/written as an
+integer before the array contents. E.g. a field of type "CommandComponent[]" would be written as an
+INT (the array size), followed by the contents of the array, a list of command components.
 
 Optionals
 ---------
@@ -103,9 +103,10 @@ example, the CommandComponent has extensions that are conditional on the command
         {"name": "messageId", "type": "INT"},
         {"name": "unitId", "type": "INT"},
         {"type": "INT"},
-        {"name": "tick", "type": "INT"}                       
+        {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 10,
       "comment": "Donate unit to clan war castle",
       "fields": [

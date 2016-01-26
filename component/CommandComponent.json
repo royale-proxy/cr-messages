@@ -10,11 +10,25 @@
       "fields": [
         {"type": "INT"},
         {"name": "messageId", "type": "INT"},
+        {"type": "INT"},
         {"name": "typeId", "type": "INT"},
         {"type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
+      "id": 5,
+      "comment": "Alliance unit received",
+      "fields": [
+        {"type": "STRING"},
+        {"type": "INT"},
+        {"name": "typeId", "type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 10,
       "comment": "Donate unit to clan war castle",
       "fields": [
@@ -24,7 +38,8 @@
         {"name": "index", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 501,
       "comment": "Move building",
       "fields": [
@@ -33,14 +48,16 @@
         {"name": "buildingId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 506,
       "comment": "Collect resources",
       "fields": [
         {"name": "buildingId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 508,
       "comment": "Train troops",
       "fields": [
@@ -50,7 +67,8 @@
         {"name": "count", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 509,
       "comment": "Cancel troop production",
       "fields": [
@@ -61,7 +79,16 @@
         {"type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
+      "id": 511,
+      "comment": "Request troops",
+      "fields": [
+        {"name": "tick", "type": "INT"},
+        {"name": "message", "type": "?STRING"}
+      ]
+    },
+    {
       "id": 512,
       "comment": "Buy decoration",
       "fields": [
@@ -70,7 +97,8 @@
         {"name": "buildingId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 532,
       "comment": "New shop item seen",
       "fields": [
@@ -79,7 +107,16 @@
         {"type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
+      "id": 540,
+      "comment": "Troop request message",
+      "fields": [
+        {"name": "message", "type": "STRING"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 546,
       "comment": "Edit layout",
       "fields": [
@@ -89,7 +126,8 @@
         {"name": "layout", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 548,
       "comment": "? edit layout command",
       "fields": [
@@ -97,7 +135,8 @@
         {"type": "INT", "comment": "0 for home villages, 1 for war"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 552,
       "comment": "Save Layout",
       "fields": [
@@ -106,7 +145,8 @@
         {"name": "save", "type": "BOOLEAN", "comment": "true to save, false to cancel"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 554,
       "comment": "? edit layout command",
       "fields": [
@@ -117,7 +157,8 @@
         {"type": "BYTE"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 567,
       "comment": "Set layout as active",
       "fields": [
@@ -125,7 +166,8 @@
         {"type": "INT", "comment": "0 for home villages, 1 for war"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 568,
       "comment": "Copy layout",
       "fields": [
@@ -133,7 +175,8 @@
         {"name": "fromLayout", "type": "INT"},
         {"name": "toLayout", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 600,
       "comment": "Place attacker",
       "fields": [
@@ -142,13 +185,15 @@
         {"name": "typeId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 603,
       "comment": "End combat",
       "fields": [
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 604,
       "comment": "Cast spell",
       "fields": [
@@ -157,7 +202,8 @@
         {"name": "typeId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
-    }, {
+    },
+    {
       "id": 700,
       "comment": "Next village during attack selection",
       "fields": [

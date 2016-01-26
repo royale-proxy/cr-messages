@@ -2,6 +2,6 @@
   "id": 14315,
   "name": "ChatToAllianceStream",
   "fields": [
-    {"name" : "text", "type" : "STRING"}
+    {"name": "text", "type": "STRING"}
   ]
 }

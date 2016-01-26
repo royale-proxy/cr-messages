@@ -19,6 +19,7 @@
     {"name": "joinDate", "type": "STRING"},
     {"type": "INT"},
     {"name": "googlePlusId", "type": "STRING"},
-    {"name": "country", "type": "STRING"}
+    {"name": "country", "type": "STRING"},
+    {"type": "STRING"}
   ]
 }

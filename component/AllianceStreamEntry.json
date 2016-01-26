@@ -1,0 +1,80 @@
+{
+  "name": "AllianceStreamEntry",
+  "fields": [
+    {"name": "id", "type": "INT"},
+    {"type": "INT"},
+    {"name": "messageId", "type": "INT"},
+    {"type": "BYTE"},
+    {"name": "userId", "type": "LONG"},
+    {"name": "homeId", "type": "LONG"},
+    {"name": "userName", "type": "STRING"},
+    {"name": "level", "type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ],
+  "extensions": [
+    {
+      "id": 1,
+      "comment": "Troop request",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "donations", "type": "AllianceDonation[]"},
+        {"name": "text", "type": "?STRING"},
+        {"type": "STRING"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"}
+      ]
+    },
+    {
+      "id": 2,
+      "comment": "Send chat line",
+      "fields": [
+        {"name": "text", "type": "STRING"}
+      ]
+    },
+    {
+      "id": 3,
+      "comment": "Accept/reject a join request",
+      "fields": [
+        {"name": "text", "type": "STRING"},
+        {"name": "actionedByUserName", "type": "STRING"},
+        {"name": "action", "type": "INT"}
+      ]
+    },
+    {
+      "id": 4,
+      "comment": "Join or leave",
+      "fields": [
+        {"name": "action", "type": "INT"},
+        {"name": "actionedByUserId", "type": "LONG"},
+        {"name": "actionedByUserName", "type": "STRING"}
+      ]
+    },
+    {
+      "id": 5,
+      "comment": "Share replay",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "BYTE"},
+        {"name": "text", "type": "STRING"},
+        {"name": "enemyName", "type": "STRING"},
+        {"name": "replay", "type": "STRING", "comment": "JSON description of battle"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"}
+      ]
+    }
+  ]
+}
+
+
+

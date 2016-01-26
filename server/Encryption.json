@@ -1,8 +1,8 @@
 {
   "id": 20000,
-  "name" : "Encryption",
-  "fields" : [
-    {"name" : "serverRandom", "type" : "BYTE[]"},
-    {"name" : "version", "type" : "INT"}
+  "name": "Encryption",
+  "fields": [
+    {"name": "serverRandom", "type": "BYTE[]"},
+    {"name": "version", "type": "INT"}
   ]
 }

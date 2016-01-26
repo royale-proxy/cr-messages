@@ -1,0 +1,37 @@
+{
+  "name": "AvatarStreamEntry",
+  "fields": [
+    {"name": "id", "type": "INT"}
+  ],
+  "extensions": [
+    {
+      "id": 2,
+      "fields": [
+        {"type": "AvatarStreamEntryExtensionDefault"}
+      ]
+    },
+    {
+      "id": 6,
+      "fields": [
+        {"type": "LONG"},
+        {"name": "userId", "type": "LONG"},
+        {"name": "userName", "type": "STRING"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "BYTE"},
+        {"name": "text", "type": "STRING"},
+        {"type": "?LONG"},
+        {"type": "LONG"},
+        {"name": "clanName", "type": "STRING"},
+        {"type": "INT"}
+      ]
+    },
+    {
+      "id": 7,
+      "fields": [
+        {"type": "AvatarStreamEntryExtensionDefault"}
+      ]
+    }
+  ]
+}

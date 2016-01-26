@@ -3,15 +3,25 @@
   "name": "OwnHomeData",
   "fields": [
     {"name": "age", "type": "INT"},
-    {"type": "INT", "default": -1},
+    {"type": "STRING"},
     {"name": "timeStamp", "type": "INT"},
     {"type": "INT"},
     {"name": "homeId", "type": "LONG"},
     {"name": "remainingShield", "type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
     {"type": "INT", "default": 1200},
     {"type": "INT", "default": 60},
     {"name": "homeVillage", "type": "?ZIP_STRING"},
     {"name": "user", "type": "UserComponent"},
-    {"name": "resources", "type": "ResourceListComponent"}
+    {"name": "resources", "type": "ResourceListComponent"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "LONG"},
+    {"type": "LONG"},
+    {"type": "LONG"}
   ]
 }

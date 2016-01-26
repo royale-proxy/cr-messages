@@ -2,8 +2,8 @@
   "id": 14102,
   "name": "EndClientTurn",
   "fields": [
-    {"name" : "tick", "type" : "INT"},
-    {"name" : "checksum", "type" : "INT"},
-    {"name" : "commands", "type" : "CommandComponent[]"}
+    {"name": "tick", "type": "INT"},
+    {"name": "checksum", "type": "INT"},
+    {"name": "commands", "type": "CommandComponent[]"}
   ]
 }

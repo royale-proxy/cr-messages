@@ -1,7 +1,7 @@
 {
   "id": 14101,
-  "name" : "AttackResult",
-  "fields" : [
-    {"type" : "LONG"}
+  "name": "AttackResult",
+  "fields": [
+    {"type": "LONG"}
   ]
 }
