@@ -7,10 +7,11 @@
     {"name": "hostName", "type": "STRING"},
     {"name": "downloadUrl", "type": "STRING"},
     {"name": "appStoreUrl", "type": "STRING"},
-    {"type": "INT"},
+    {"type": "STRING"},
     {"type": "INT"},
     {"type": "BYTE"},
     {"name": "fingerPrint", "type": "ZIP_STRING"},
-    {"type": "STRING"}
+    {"type": "STRING"},
+    {"type": "INT"}
   ]
 }
