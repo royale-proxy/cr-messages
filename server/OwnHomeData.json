@@ -22,6 +22,9 @@
     {"type": "INT"},
     {"type": "LONG"},
     {"type": "LONG"},
-    {"type": "LONG"}
+    {"type": "LONG"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}
   ]
 }
