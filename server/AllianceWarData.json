@@ -4,9 +4,9 @@
   "fields": [
     {"type": "INT"},
     {"type": "INT"},
-    {"type": "WarTeam"},
-    {"type": "?WarTeam"},
+    {"name": "ownTeam", "type": "WarTeam"},
+    {"name": "enemyTeam", "type": "?WarTeam"},
     {"type": "?LONG"},
-    {"type": "INT[]"}
+    {"name": "warEvents", "type": "WarEvent[]"}
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "name": "WarsTeamMemberUnknownComponent",
+  "name": "WarTeamMemberUnknownComponent",
   "fields": [
     {"name": "name", "type": "STRING"},
     {"name": "position", "type": "INT"},

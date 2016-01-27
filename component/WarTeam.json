@@ -5,7 +5,7 @@
     {"name": "clanName", "type": "STRING"},
     {"type": "INT"},
     {"name": "clanLevel", "type": "INT"},
-    {"type": "WarTeamMembers[]"},
+    {"name": "teamMembers", "type": "WarTeamMembers[]"},
     {"type": "BYTE"},
     {"type": "INT[]"},
     {"type": "INT"},

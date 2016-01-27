@@ -21,7 +21,6 @@
     {"type": "INT"},
     {"name": "townHall", "type": "INT"},
     {"name": "position", "type": "INT"},
-    {"type": "?WarsTeamMemberUnknownComponent"},
     {"name": "warId", "type": "?LONG"},
     {"type": "?LONG"},
     {"type": "?LONG"},
