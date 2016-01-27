@@ -1,0 +1,8 @@
+{
+  "id": 10212,
+  "name": "ChangeAvatarName",
+  "fields": [
+    {"type": "STRING"},
+    {"type": "BYTE"}
+  ]
+}
