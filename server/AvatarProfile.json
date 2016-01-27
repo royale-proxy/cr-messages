@@ -4,7 +4,6 @@
   "fields": [
     {"name": "user", "type": "UserComponent"},
     {"name": "resources", "type": "ResourceListComponent"},
-    {"type": "INT"},
     {"name": "homeVillage", "type": "ZIP_STRING"},
     {"name": "troopsDonated","type": "INT"},
     {"name": "troopsRecieved","type": "INT"},

@@ -16,6 +16,10 @@
     {"name": "achievementProgress", "type": "ResourceComponent[]"},
     {"name": "goblinStars", "type": "ResourceComponent[]"},
     {"name": "goblinGold", "type": "ResourceComponent[]"},
-    {"name": "goblinElixir", "type": "ResourceComponent[]"}
+    {"name": "goblinElixir", "type": "ResourceComponent[]"},
+    {"type": "ResourceComponent[]"},
+    {"type": "ResourceComponent[]"},
+    {"type": "ResourceComponent[]"},
+    {"type": "ResourceComponent[]"}
   ]
 }
