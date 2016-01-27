@@ -1,0 +1,27 @@
+{
+  "name": "WarEvent",
+  "fields": [
+    {"type": "INT"},
+    {"type": "INT"},
+    {"name": "attackId", "type": "INT"},
+    {"name": "timeTillWarEnd", "type": "INT"},
+    {"name": "attackerClanID", "type": "LONG"},
+    {"name": "attackerID", "type": "LONG"},
+    {"name": "defenderClanID", "type": "LONG"},
+    {"name": "defenderID", "type": "LONG"},
+    {"name": "attackerName","type": "STRING"},
+    {"name": "defenderName", "type": "STRING"},
+    {"name": "stars", "type": "INT"},
+    {"name": "newStars", "type": "INT"},
+    {"name": "percentageDamageDone", "type": "INT"},
+    {"type": "INT"},
+    {"name": "majorVersion", "type": "INT"},
+    {"name": "minorVersion", "type": "INT"},
+    {"type": "INT"},
+    {"type": "BYTE"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

@@ -12,7 +12,7 @@
     {"name": "rank", "type": "INT"},
     {"name": "previousRank", "type": "INT"},
     {"name": "newMember", "type": "BYTE"},
-    {"type": "INT"},
+    {"name": "warCoolDown", "type": "INT"},
     {"name": "clanWarPreference", "type": "INT"},
     {"type": "BYTE"},
     {"name": "id2", "type": "LONG"}

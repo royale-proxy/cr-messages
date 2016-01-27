@@ -19,8 +19,7 @@
     {"name": "clanLevel", "type": "INT"},
     {"name": "clanDescription", "type": "STRING"},
     {"type": "INT"},
-    {"name": "clanInWar", "type": "BYTE"},
-    {"name": "warID", "type": "LONG"},
+    {"name": "warID", "type": "?LONG"},
     {"name": "clanMembers", "type": "ClanMembers[]"}
   ]
 }
