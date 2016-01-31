@@ -26,7 +26,6 @@
     {"type": "BYTE", "default": 2},
     {"type": "STRING"},
     {"type": "STRING"},
-    {"name": "clientVersion", "type": "STRING"},
-    {"type": "STRING"}
+    {"name": "clientVersion", "type": "STRING"}
   ]
 }
