@@ -24,10 +24,11 @@
     {"name": "warId", "type": "?LONG"},
     {"type": "?LONG"},
     {"type": "?LONG"},
+    {"type": "?LONG"},
     {"type": "INT"},
     {"type": "INT"},
     {"type": "INT"},
-    {"type": "STRING"},
+    {"name": "warRequest", "type": "STRING"},
     {"type": "INT"},
     {"type": "WarTeamMemberTroopsComponent[]"}
   ]
