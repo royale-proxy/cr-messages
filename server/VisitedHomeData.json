@@ -3,13 +3,17 @@
   "name": "VisitedHomeData",
   "fields": [
     {"name": "age", "type": "INT"},
-    {"type": "INT", "default": -1},
+    {"type": "INT"},
+    {"type": "INT"},
     {"name": "homeId", "type": "LONG"},
     {"name": "remainingShield", "type": "INT"},
+    {"type": "INT"},
     {"type": "INT", "default": 1200},
     {"type": "INT", "default": 60},
     {"name": "homeVillage", "type": "?ZIP_STRING"},
     {"name": "user", "type": "UserComponent"},
-    {"name": "resources", "type": "ResourceListComponent"}
+    {"name": "resources", "type": "ResourceListComponent"},
+    {"name": "user2", "type": "?UserComponent"},
+    {"name": "resources2", "type": "ResourceListComponent"}
   ]
 }
