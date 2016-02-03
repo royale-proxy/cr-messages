@@ -3,6 +3,6 @@
   "name": "AllianceList",
   "fields": [
     {"name": "searchAlliance", "type": "STRING"},
-    {"name": "searchEntries", "type": "searchEntry[]"}
+    {"name": "searchEntries", "type": "SearchEntry[]"}
   ]
 }
