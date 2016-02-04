@@ -1,0 +1,21 @@
+{
+    "name": "AvatarRankingEntry",
+    "fields": [
+        { "type": "LONG" },
+        { "type": "STRING" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "STRING" },
+        { "type": "LONG" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "?AvatarClanComponent" }
+    ]
+}

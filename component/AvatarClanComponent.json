@@ -1,0 +1,8 @@
+{
+  "name": "AvatarClanComponent",
+  "fields": [
+    {"name": "clanId", "type": "LONG"},
+    { "name": "clanName", "type": "STRING" },
+    {"type": "INT"}
+  ]
+}
