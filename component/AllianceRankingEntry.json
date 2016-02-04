@@ -1,0 +1,12 @@
+{
+    "name": "AllianceRankingEntry",
+    "fields": [
+        { "type": "LONG" },
+        { "type": "STRING" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "LONG" },
+        { "type": "LONG" },
+        { "type": "INT" }
+    ]
+}
