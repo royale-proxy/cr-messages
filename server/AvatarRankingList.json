@@ -2,12 +2,12 @@
     "id": 24403,
     "name": "AvatarRankingList",
     "fields": [
-        { "name": "entries", "type": "AvatarRankingEntry[]" },
-        { "name": "entries2", "type": "AvatarRankingEntry[]" },
-        { "type": "INT" },
-        { "type": "INT" },
-        { "type": "INT" },
-        { "type": "INT" },
-        { "type": "INT" }
+        { "name": "currentSeasonList", "type": "AvatarRankingEntry[]" },
+        { "name": "previousSeasonList", "type": "AvatarRankingEntry[]" },
+        { "name": "timeTillSeasonEnd", "type": "INT" },
+        { "name": "CurrentSeasonYear", "type": "INT" },
+        { "name": "CurrentSeasonMonth", "type": "INT" },
+        { "name": "PreviousSeasonYear", "type": "INT" },
+        { "name": "PreviousSeasonMonth", "type": "INT" }
     ]
 }

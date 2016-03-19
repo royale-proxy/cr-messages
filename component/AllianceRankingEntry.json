@@ -1,12 +1,14 @@
 {
     "name": "AllianceRankingEntry",
     "fields": [
-        { "type": "LONG" },
-        { "type": "STRING" },
-        { "type": "INT" },
-        { "type": "INT" },
-        { "type": "LONG" },
-        { "type": "LONG" },
-        { "type": "INT" }
+        { "name": "clanId", "type": "LONG" },
+        { "name": "clanName", "type": "STRING" },
+        { "name": "position", "type": "INT" },
+        { "name": "totalTrophies", "type": "INT" },
+        { "name": "previousPosition", "type": "INT" },
+        { "name": "clanBadge", "type": "INT" },
+        { "name": "memberCount", "type": "INT" },
+        { "name": "clanLocation", "type": "INT" },
+        { "name": "clanLevel", "type": "INT" }
     ]
 }
