@@ -1,0 +1,12 @@
+{
+    "id": 24401,
+    "name": "AllianceRankingList",
+    "fields": [
+        { "name": "entries", "type": "AllianceRankingEntry[]" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" },
+        { "type": "INT" }
+    ]
+}

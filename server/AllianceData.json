@@ -17,6 +17,7 @@
     {"name": "clanLocation", "type": "INT"},
     {"name": "clanPerksPoints", "type": "INT"},
     {"name": "clanLevel", "type": "INT"},
+    {"name": "winStreak", "type": "INT"},
     {"name": "clanDescription", "type": "STRING"},
     {"type": "INT"},
     {"name": "warID", "type": "?LONG"},
