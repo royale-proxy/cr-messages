@@ -5,6 +5,37 @@
   ],
   "extensions": [
     {
+      "id": 1,
+      "comment": "JoinAlliance",
+      "fields": [
+        {"name": "id", "type": "LONG"},
+        {"name": "name", "type": "STRING"},
+        {"name": "badge", "type": "INT"},
+        {"type": "BYTE"},
+        {"name": "level", "type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 2,
+      "comment": "LeaveAlliance",
+      "fields": [
+        {"name": "clanId", "type": "LONG"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 3,
+      "comment": "ChangeAvatarName",
+      "fields": [
+        {"name": "name", "type": "STRING"},
+        {"type": "INT"},
+        {"type": "INT"}
+      ]
+    },
+    {
       "id": 4,
       "comment": "Donate unit in response to troop request",
       "fields": [
@@ -29,6 +60,26 @@
       ]
     },
     {
+      "id": 6,
+      "comment": "AllianceSettingsChanged",
+      "fields": [
+        {"name": "clanId", "type": "LONG"},
+        {"name": "clanBadge", "type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 8,
+      "comment": "ChangeAllianceMemberRole",
+      "fields": [
+        {"type": "LONG"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 10,
       "comment": "Donate unit to clan war castle",
       "fields": [
@@ -36,6 +87,25 @@
         {"name": "homeId", "type": "INT"},
         {"name": "typeId", "type": "INT"},
         {"name": "index", "type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 11,
+      "fields": [
+        {"type": "BYTE"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 14,
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
     },
@@ -50,10 +120,27 @@
       ]
     },
     {
+      "id": 502,
+      "comment": "UpgradeBuilding",
+      "fields": [
+        {"name": "buildingId", "type": "INT"},
+        {"type": "BYTE"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 506,
       "comment": "Collect resources",
       "fields": [
         {"name": "buildingId", "type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 507,
+      "comment": "ClearObstacle",
+      "fields": [
+        {"name": "obstacleId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
     },
@@ -99,6 +186,32 @@
       ]
     },
     {
+      "id": 516,
+      "comment": "UpgradeUnit",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 525,
+      "comment": "LoadTurret",
+      "fields": [
+        {"name": "buildings", "type": "INT[]"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 526,
+      "comment": "BoostBuildings",
+      "fields": [
+        {"name": "buildings", "type": "INT[]"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 532,
       "comment": "New shop item seen",
       "fields": [
@@ -109,10 +222,60 @@
       ]
     },
     {
+      "id": 533,
+      "comment": "MoveMultipleBuildings",
+      "fields": [
+        {"name": "buildings", "type": "BuildingPosition[]"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 537,
+      "comment": "SendAllianceMail",
+      "fields": [
+        {"type": "STRING"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 538,
+      "comment": "LeagueNotificationSeen",
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 539,
+      "comment": "NewsSeen",
+      "fields": [
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 540,
       "comment": "Troop request message",
       "fields": [
         {"name": "message", "type": "STRING"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 543,
+      "comment": "Kick clan member",
+      "fields": [
+        {"name": "userId", "type": "LONG"},
+        {"name": "kickMessage", "type": "?STRING"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 545,
+      "comment": "RearmTraps",
+      "fields": [
+        {"name": "traps", "type": "INT[]"},
         {"name": "tick", "type": "INT"}
       ]
     },
@@ -137,12 +300,29 @@
       ]
     },
     {
+      "id": 549,
+      "fields": [
+        {"type": "INT"},
+        {"type": "BYTE"},
+        {"type": "INT"},
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 552,
       "comment": "Save Layout",
       "fields": [
         {"name": "layout", "type": "INT"},
         {"type": "INT"},
         {"name": "save", "type": "BOOLEAN", "comment": "true to save, false to cancel"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 553,
+      "fields": [
+        {"type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
     },
@@ -155,6 +335,12 @@
         {"type": "BYTE"},
         {"type": "INT"},
         {"type": "BYTE"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 563,
+      "fields": [
         {"name": "tick", "type": "INT"}
       ]
     },
@@ -177,8 +363,25 @@
       ]
     },
     {
+      "id": 570,
+      "fields": [
+        {"type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
       "id": 600,
       "comment": "Place attacker",
+      "fields": [
+        {"name": "x", "type": "INT"},
+        {"name": "y", "type": "INT"},
+        {"name": "typeId", "type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 601,
+      "comment": "PlaceAlliancePortal",
       "fields": [
         {"name": "x", "type": "INT"},
         {"name": "y", "type": "INT"},
@@ -199,6 +402,26 @@
       "fields": [
         {"name": "x", "type": "INT"},
         {"name": "y", "type": "INT"},
+        {"name": "typeId", "type": "INT"},
+        {"type": "INT"},
+        {"type": "BYTE"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 605,
+      "comment": "PlaceHero",
+      "fields": [
+        {"name": "x", "type": "INT"},
+        {"name": "y", "type": "INT"},
+        {"name": "typeId", "type": "INT"},
+        {"name": "tick", "type": "INT"}
+      ]
+    },
+    {
+      "id": 606,
+      "comment": "UseHeroAbility",
+      "fields": [
         {"name": "typeId", "type": "INT"},
         {"name": "tick", "type": "INT"}
       ]
