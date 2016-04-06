@@ -1,0 +1,9 @@
+{
+  "id": 14503,
+  "name": "AskForLeagueMemberList",
+  "fields": [
+    {"type": "BYTE"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

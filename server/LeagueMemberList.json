@@ -1,0 +1,8 @@
+{
+  "id": 24503,
+  "name": "LeagueMemberList",
+  "fields": [
+    {"type": "INT"},
+    {"name": "members", "type": "LeagueMemberListUser[]"}
+  ]
+}

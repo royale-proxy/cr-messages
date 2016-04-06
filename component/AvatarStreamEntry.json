@@ -11,9 +11,23 @@
       ]
     },
     {
+      "id": 4,
+      "fields": [
+        {"type": "INT"},
+        {"type": "INT"},
+        {"type": "?AvatarStreamUser"},
+        {"type": "BYTE"},
+        {"type": "AvatarStreamClan"},
+        {"type": "BYTE"},
+        {"type": "LONG"},
+        {"type": "INT"}
+      ]
+    },
+    {
       "id": 6,
       "fields": [
         {"type": "LONG"},
+        {"type": "BYTE"},
         {"name": "userId", "type": "LONG"},
         {"name": "userName", "type": "STRING"},
         {"type": "INT"},

@@ -9,7 +9,7 @@
     {"type": "INT"},
     {"type": "INT"},
     {"type": "BYTE"},
-    {"type": "STRING"},
+    {"name": "attackDetails", "type": "STRING", "options": {"json": true}},
     {"type": "BYTE"},
     {"type": "INT"},
     {"type": "INT"},

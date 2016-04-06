@@ -1,0 +1,19 @@
+{
+  "name": "LeagueMemberListUser",
+  "fields": [
+    {"name": "id", "type": "LONG"},
+    {"name": "userName", "type": "STRING"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "LONG"},
+    {"type": "LONG"},
+    {"name": "clan", "type": "?AvatarStreamClan"},
+    {"type": "LONG"}
+  ]
+}

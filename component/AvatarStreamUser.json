@@ -1,0 +1,10 @@
+{
+  "name": "AvatarStreamUser",
+  "fields": [
+    {"name": "id", "type": "LONG"},
+    {"name": "userName", "type": "STRING"},
+    {"name": "level", "type": "INT"},
+    {"name": "leagueLevel", "type": "INT"},
+    {"name": "townHallLevel", "type": "INT"}
+  ]
+}
