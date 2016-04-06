@@ -18,7 +18,6 @@
     {"name": "attacker", "type": "UserComponent"},
     {"name": "attackerResources", "type": "ResourceListComponent"},
     {"type": "INT"},
-    {"type": "INT"},
-    {"type": "?LONG"}
+    {"type": "INT"}
   ]
 }
