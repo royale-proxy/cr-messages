@@ -1,0 +1,7 @@
+{
+  "id": 14305,
+  "name": "JoinAlliance",
+  "fields": [
+    {"name": "clanId", "type": "LONG"}
+  ]
+}

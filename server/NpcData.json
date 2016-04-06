@@ -1,0 +1,12 @@
+{
+  "id": 24133,
+  "name": "NpcData",
+  "fields": [
+    {"type": "INT"},
+    {"name": "npcVillage", "type": "STRING"},
+    {"name": "user", "type": "UserComponent"},
+    {"name": "resources", "type": "ResourceListComponent"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

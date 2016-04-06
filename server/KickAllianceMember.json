@@ -1,0 +1,7 @@
+{
+  "id":24307,
+  "name": "KickAllianceMember",
+  "fields": [
+    {"type": "LONG"}
+  ]
+}
