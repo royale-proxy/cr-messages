@@ -1,0 +1,7 @@
+{
+  "id": 24341,
+  "name": "BookmarkedClans",
+  "fields": [
+    {"name": "clans", "type": "ClanFull[]"}
+  ]
+}
