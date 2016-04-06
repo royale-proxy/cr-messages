@@ -7,7 +7,7 @@
     {"name": "hostName", "type": "STRING"},
     {"name": "downloadUrl", "type": "STRING"},
     {"name": "appStoreUrl", "type": "STRING"},
-    {"type": "STRING"},
+    {"name": "failureMessage", "type": "STRING"},
     {"type": "INT"},
     {"type": "BYTE"},
     {"name": "fingerPrint", "type": "ZIP_STRING"},
