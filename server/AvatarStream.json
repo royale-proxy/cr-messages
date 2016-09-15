@@ -1,8 +1,0 @@
-{
-  "id":24411,
-  "comment": "Mail stream. Clan mail, defense, etc.",
-  "name": "AvatarStream",
-  "fields": [
-    {"name": "entries", "type": "AvatarStreamEntry[]"}
-  ]
-}

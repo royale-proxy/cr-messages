@@ -1,7 +1,0 @@
-{
-  "id": 24111,
-  "name": "AvailableServerCommand",
-  "fields": [
-    {"name": "command", "type": "CommandComponent"}
-  ]
-}

@@ -1,7 +1,0 @@
-{
-  "id":24309,
-  "name": "AllianceMemberRemoved",
-  "fields": [
-    {"type": "LONG"}
-  ]
-}
