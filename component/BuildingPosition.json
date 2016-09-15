@@ -1,8 +1,0 @@
-{
-  "name": "BuildingPosition",
-  "fields": [
-    {"name": "x", "type": "INT"},
-    {"name": "y", "type": "INT"},
-    {"name": "buildingId", "type": "INT"}
-  ]
-}

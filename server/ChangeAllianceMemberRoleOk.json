@@ -1,8 +1,0 @@
-{
-  "id": 24306,
-  "name": "ChangeAllianceMemberRoleOk",
-  "fields": [
-    {"type": "LONG"},
-    {"type": "INT"}
-  ]
-}

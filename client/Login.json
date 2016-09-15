@@ -7,8 +7,8 @@
     {"name": "majorVersion", "type": "INT"},
     {"name": "masterHash", "type": "STRING"},
     {"type": "INT"},
-    {"type": "STRING"},
-    {"type": "STRING"},
+    {"name": "openUdid", "type": "STRING"},
+    {"name": "mac", "type": "STRING"},
     {"name": "phoneModel", "type": "STRING"},
     {"type": "STRING"},
     {"name": "osVersion", "type": "STRING"},
@@ -16,10 +16,11 @@
     {"type": "INT"},
     {"type": "STRING"},
     {"name": "language", "type": "STRING"},
-    {"type": "INT"},
+    {"type": "BYTE"},
     {"type": "INT"},
     {"type": "INT"},
     {"type": "BYTE"},
+    {"type": "LONG"},
     {"type": "LONG"},
     {"type": "LONG"}
   ]

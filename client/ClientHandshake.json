@@ -1,0 +1,14 @@
+{
+  "id": 10100,
+  "name": "ClientHandshake",
+  "fields": [
+    {"type": "INT"},
+    {"type": "INT"},
+    {"name": "majorVersion", "type": "INT"},
+    {"type": "INT"},
+    {"name": "minorVersion", "type": "INT"},
+    {"name": "masterHash", "type": "STRING"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}

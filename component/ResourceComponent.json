@@ -1,7 +1,0 @@
-{
-  "name": "ResourceComponent",
-  "fields": [
-    {"name": "type", "type": "INT"},
-    {"name": "value", "type": "INT"}
-  ]
-}

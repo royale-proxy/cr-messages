@@ -2,6 +2,11 @@
   "id": 24101,
   "name": "OwnHomeData",
   "fields": [
-    {"name": "age", "type": "INT"}
+    {"name": "age", "type": "INT"},
+    {"type": "BYTE"},
+    {"name": "timeStamp", "type": "LONG"},
+    {"type": "INT"},
+    {"type": "INT"},
+    {"type": "INT"}    
   ]
 }
