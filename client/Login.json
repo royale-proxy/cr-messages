@@ -15,9 +15,6 @@
     {"type": "BYTE"},
     {"type": "INT"},
     {"type": "STRING"},
-<<<<<<< HEAD
-    {"name": "clientVersion", "type": "STRING"}
-=======
     {"name": "language", "type": "STRING"},
     {"type": "INT"},
     {"type": "INT"},
@@ -25,6 +22,5 @@
     {"type": "BYTE"},
     {"type": "LONG"},
     {"type": "LONG"}
->>>>>>> new
   ]
 }
