@@ -1,7 +1,0 @@
-{
-  "id": 24412,
-  "name": "AvatarStreamEntry",
-  "fields": [
-    {"name": "entry", "type": "AvatarStreamEntry"}
-  ]
-}

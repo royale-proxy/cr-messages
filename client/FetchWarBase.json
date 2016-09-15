@@ -1,9 +1,0 @@
-{
-  "id": 15000,
-  "name" : "FetchWarBase",
-  "fields" : [
-    {"name" : "homeId", "type" : "LONG"},
-    {"type" : "INT"},
-    {"name" : "warId", "type" : "?LONG"}
-  ]
-}

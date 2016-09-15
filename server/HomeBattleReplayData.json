@@ -1,7 +1,0 @@
-{
-  "id": 24114,
-  "name": "HomeBattleReplayData",
-  "fields": [
-    {"name": "replay", "type": "ZIP_STRING"}
-  ]
-}
