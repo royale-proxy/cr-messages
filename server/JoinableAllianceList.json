@@ -1,7 +1,0 @@
-{
-  "id": 24304,
-  "name": "JoinableAllianceList",
-  "fields": [
-    {"name": "entries", "type": "ClanFull[]"}
-  ]
-}

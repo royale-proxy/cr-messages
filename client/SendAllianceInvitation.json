@@ -1,7 +1,0 @@
-{
-  "id": 14322,
-  "name": "SendAllianceInvitation",
-  "fields": [
-    {"name": "userId", "type": "LONG"}
-  ]
-}

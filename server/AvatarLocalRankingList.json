@@ -1,7 +1,0 @@
-{
-    "id": 24404,
-    "name": "AvatarLocalRankingList",
-    "fields": [
-        { "name": "entries", "type": "AvatarRankingEntry[]" }
-    ]
-}

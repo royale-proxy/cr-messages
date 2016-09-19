@@ -1,8 +1,0 @@
-{
-  "id": 14114,
-  "name": "HomeBattleReply",
-  "fields": [
-    {"type": "INT"},
-    {"type": "LONG"}
-  ]
-}

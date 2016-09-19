@@ -1,7 +1,0 @@
-{
-  "id": 14715,
-  "name": "SendGlobalChatLine",
-  "fields": [
-    {"name": "text", "type": "STRING"}
-  ]
-}

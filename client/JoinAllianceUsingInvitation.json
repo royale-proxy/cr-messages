@@ -1,8 +1,0 @@
-{
-  "id": 14323,
-  "name": "JoinAllianceUsingInvitation",
-  "fields": [
-    {"name": "invitationId", "type": "LONG"},
-    {"name": "clanId", "type": "LONG"}
-  ]
-}
