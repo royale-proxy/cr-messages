@@ -1,0 +1,9 @@
+{
+  "id": 14102,
+  "name": "PingOk",
+  "fields": [
+    {"name": "pingMillis", "type": "SHORT"},
+    {"type": "SHORT"},
+    {"type": "STRING"}
+    ]
+}
