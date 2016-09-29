@@ -1,0 +1,8 @@
+{
+  "id": 14402,
+  "name": "TVRoyaleSearch",
+  "fields": [
+    {"type": "BYTE", "default": 56},
+    {"name": "Arena", "type": "BYTE"}
+  ]
+}
