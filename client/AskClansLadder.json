@@ -1,0 +1,8 @@
+{
+  "id": 14401,
+  "name": "AskClanLadder",
+  "comment" : "when the client ask the clan ladder from the home",
+  "fields": [
+    {"name": "region", "type": "BYTE","comment":"general or local"}
+  ]
+}
