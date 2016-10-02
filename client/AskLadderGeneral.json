@@ -1,0 +1,8 @@
+{
+  "id": 14403,
+  "name": "AskLadderGeneral",
+  "comment" : "when the client ask the player general ladder from the home",
+  "fields": [
+    {"type": "BYTE"}
+  ]
+}
