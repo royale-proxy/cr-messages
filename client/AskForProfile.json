@@ -2,6 +2,7 @@
   "id": 14113,
   "name": "AskForProfile",
   "fields": [
-    {"name": "account", "type": "LONG"}
+    {"name": "accountID.hi", "type": "INT"},
+    {"name": "accountID.lo", "type": "INT"}
   ]
 }

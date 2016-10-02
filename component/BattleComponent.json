@@ -1,0 +1,15 @@
+{
+  "name": "BattleComponent",
+  "fields": [
+    {"name": "id", "type": "BYTE"}
+  ],
+  "extensions": [
+    {
+      "id": 54,
+      "comment": "TV Royale",
+      "fields": [
+        {"name": "arenaId", "type": "BYTE"}
+      ]
+    }
+  ]
+}
