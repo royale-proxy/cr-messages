@@ -1,0 +1,14 @@
+{
+  "id": 14324,
+  "name": "ClanSearch",
+  "fields": [
+    {"name": "searchString", "type": "STRING"},
+    {"name": "clanLocation", "type": "locationComponent"},
+    {"name": "minMembers", "type": "INT"},
+    {"name": "maxMembers", "type": "INT"},
+    {"name": "minClanPoints", "type": "INT"},
+    {"name": "onlyClanUserCanJoin", "type": "BOOLEAN"},
+    {"type": "INT"},
+    {"type": "INT"}
+  ]
+}
