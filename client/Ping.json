@@ -1,8 +1,0 @@
-{
-  "id": 10107,
-  "name": "Ping",
-  "fields": [
-    {"name": "pingMillis", "type": "SHORT"},
-    {"name": "interface", "type": "STRING"}
-  ]
-}

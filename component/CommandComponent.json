@@ -1,0 +1,15 @@
+{
+  "name": "CommandComponent",
+  "fields": [
+    {"name": "id", "type": "INT"}
+  ],
+  "extensions": [
+    {
+      "id": 51,
+      "comment": "ClientInterface",
+      "fields": [
+        {"name": "interfaceName", "type": "STRING"}
+      ]
+    }
+  ]
+}
