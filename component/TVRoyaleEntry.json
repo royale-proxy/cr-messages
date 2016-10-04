@@ -1,0 +1,16 @@
+{
+  "name": "TVRoyaleEntry",
+  "fields": [
+    {"name": "json", "type": "STRING"},
+    {"type": "INT", "comment": "always 00 02 90 1f"},
+    {"type": "BYTE", "comment": "always 03"},
+    {"type": "VARINT"},
+    {"type": "VARINT"},
+    {"type": "BYTE"},
+    {"name": "ageTicks", "type": "VARINT"},
+    {"type": "VARINT"},
+    {"type": "BYTE"},
+    {"name": "serverId", "type": "BYTE"},
+    {"name": "battleId", "type": "LONG"}
+  ]
+}
