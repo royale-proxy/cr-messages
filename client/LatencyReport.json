@@ -1,0 +1,8 @@
+{
+  "id": 10107,
+  "name": "LatencyReport",
+  "fields": [
+      {"name": "latencyMillis", "type": "VARINT"},
+      {"name": "interface", "type": "STRING"}
+    ]
+}

@@ -3,7 +3,7 @@
   "name": "OwnHomeData",
   "fields": [
     {"name": "age", "type": "INT"},
-    {"type": "BYTE"},
+    {"name": "id", "type": "INT"},
     {"name": "timeStamp", "type": "LONG"},
     {"type": "INT"},
     {"type": "INT"},
