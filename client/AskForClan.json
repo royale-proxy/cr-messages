@@ -1,0 +1,8 @@
+{
+  "id": 14302,
+  "name": "AskForClan",
+  "fields": [
+    {"name": "clanID.hi", "type": "INT"},
+    {"name": "clanID.lo", "type": "INT"}
+  ]
+}

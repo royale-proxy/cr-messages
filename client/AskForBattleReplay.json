@@ -4,7 +4,7 @@
   "fields": [
     {"name": "battleId", "type": "LONG"},
     {"type": "BYTE"},
-    {"type": "BYTE"},
+    {"name": "serverId", "type": "BYTE"},
     {"type": "BYTE"},
     {"type": "BYTE"},
     {"name": "feedPosition", "type": "BYTE"},
