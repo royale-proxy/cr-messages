@@ -1,6 +1,6 @@
 {
   "id": 10100,
-  "name": "ClientHandshake",
+  "name": "ClientHello",
   "fields": [
     {"type": "INT"},
     {"type": "INT"},

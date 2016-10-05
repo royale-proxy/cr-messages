@@ -1,6 +1,6 @@
 {
   "id": 14114,
-  "name": "AskForBattleReplay",
+  "name": "AskForBattleReplayData",
   "fields": [
     {"name": "battleId", "type": "LONG"},
     {"type": "BYTE"},
@@ -8,7 +8,7 @@
     {"type": "BYTE"},
     {"type": "BYTE"},
     {"name": "feedPosition", "type": "BYTE"},
-    {"name": "battleType", "type": "BYTE", "values" : [ 
+    {"name": "gameMode", "type": "BYTE", "values" : [ 
     		{"id": 0, "value": "Ladder"},
     		{"id": 1, "value": "Shared TV Royale"},
     		{"id": 2, "value": "TV Royale"},

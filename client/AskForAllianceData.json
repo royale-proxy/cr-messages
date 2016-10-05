@@ -1,6 +1,6 @@
 {
   "id": 14302,
-  "name": "AskForClan",
+  "name": "AskForAllianceData",
   "fields": [
     {"name": "clanID.hi", "type": "INT"},
     {"name": "clanID.lo", "type": "INT"}

@@ -1,0 +1,7 @@
+{
+  "id": 14404,
+  "name": "AskForAvatarLocalRanking",
+  "fields": [
+    { "type": "BYTE"}
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "id": 14324,
-  "name": "ClanSearch",
+  "name": "SearchAlliances",
   "fields": [
     {"name": "searchString", "type": "STRING"},
     {"name": "clanLocation", "type": "locationComponent"},

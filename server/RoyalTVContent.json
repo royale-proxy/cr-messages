@@ -1,6 +1,6 @@
 {
   "id": 24405,
-  "name": "TVRoyaleResponse",
+  "name": "RoyalTVContent",
   "fields": [
     {"name": "jsonPayload", "type": "STRING"}
   ]

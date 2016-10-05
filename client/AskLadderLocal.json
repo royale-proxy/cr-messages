@@ -1,8 +1,0 @@
-{
-  "id": 14404,
-  "name": "AskLadderLocal",
-  "comment" : "when the client ask the player local ladder from the home",
-  "fields": [
-    { "type": "BYTE"}
-  ]
-}
