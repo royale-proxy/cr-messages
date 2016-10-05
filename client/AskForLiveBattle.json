@@ -1,0 +1,7 @@
+{
+  "id": 14106,
+  "name": "askForLiveBattle",
+  "fields": [
+    {"name": "liveBattleId", "type": "LONG"}
+  ]
+}
