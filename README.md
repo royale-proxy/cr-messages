@@ -58,6 +58,12 @@ Five primitive types are defined.
 
 - **INT:** Four bytes, big-endian
 
+- **INT32:** [Variable length integer](https://developers.google.com/protocol-buffers/docs/encoding)
+
+- **SINT32:** [Signed variable length integer](https://developers.google.com/protocol-buffers/docs/encoding)
+
+- **RRSINT32:** Obfescated signed variable length integer. The encoding takes the first byte of the varint, rotates the 7 bits after MSB to the right by 1. The LSB is wrapped around and get put in the 7th bit. MSB value is preserved.
+
 - **LONG:** Eight bytes, big-endian
 
 - **STRING:** An integer length, then a UTF-8 encoded string.
