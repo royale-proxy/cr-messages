@@ -1,14 +1,14 @@
 {
-  "name": "TVRoyaleEntry",
+  "name": "RoyaleTVEntry",
   "fields": [
     {"name": "json", "type": "STRING"},
     {"type": "INT", "comment": "always 00 02 90 1f"},
     {"type": "BYTE", "comment": "always 03"},
-    {"type": "VARINT"},
-    {"type": "VARINT"},
+    {"name": "views", "type": "RRSINT32"},
+    {"type": "RRSINT32"},
     {"type": "BYTE"},
-    {"name": "ageTicks", "type": "VARINT"},
-    {"type": "VARINT"},
+    {"name": "ageSeconds", "type": "RRSINT32"},
+    {"name": "index", "type": "RRSINT32"},
     {"type": "BYTE"},
     {"name": "serverId", "type": "BYTE"},
     {"name": "battleId", "type": "LONG"}

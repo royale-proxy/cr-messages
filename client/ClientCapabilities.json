@@ -2,7 +2,7 @@
   "id": 10107,
   "name": "ClientCapabilities",
   "fields": [
-      {"name": "latencyMillis", "type": "VARINT"},
+      {"name": "latencyMillis", "type": "INT32"},
       {"name": "interface", "type": "STRING"}
     ]
 }

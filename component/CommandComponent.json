@@ -5,10 +5,13 @@
   ],
   "extensions": [
     {
-      "id": 51,
-      "comment": "ClientInterface",
+      "id": 1027,
+      "comment": "share a Replay in Clan chat",
       "fields": [
-        {"name": "interfaceName", "type": "STRING"}
+        {"name":"ReplayId2", "type": "LONG"},
+        {"name": "messageFromPlayer", "type": "?STRING"},
+        {"type": "INT"},
+        {"type": "INT"}
       ]
     }
   ]

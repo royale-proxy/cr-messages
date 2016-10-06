@@ -2,7 +2,7 @@
   "id": 24405,
   "name": "RoyalTVContent",
   "fields": [
-    {"name": "TVRoyaleEntry", "type": "TVRoyaleEntry[]", "lengthType": "BYTE"},
+    {"name": "RoyaleTVEntry", "type": "RoyaleTVEntry[]", "lengthType": "BYTE"},
     {"type": "LONG[42]", "comment": "336 bytes of nonsense starting with 36 05"}
   ]
 }
