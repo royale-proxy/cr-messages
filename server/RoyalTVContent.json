@@ -1,6 +1,6 @@
 {
   "id": 24405,
-  "name": "TVRoyaleResponse",
+  "name": "RoyalTVContent",
   "fields": [
     {"name": "TVRoyaleEntry", "type": "TVRoyaleEntry[]", "lengthType": "BYTE"},
     {"type": "LONG[42]", "comment": "336 bytes of nonsense starting with 36 05"}

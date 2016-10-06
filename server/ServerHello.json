@@ -1,6 +1,6 @@
 {
   "id": 20100,
-  "name": "ServerHandshake",
+  "name": "ServerHello",
   "fields": [
     {"name": "sessionKey", "type": "STRING"}
   ]

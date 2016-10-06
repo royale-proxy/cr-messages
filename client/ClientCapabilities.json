@@ -1,6 +1,6 @@
 {
   "id": 10107,
-  "name": "LatencyReport",
+  "name": "ClientCapabilities",
   "fields": [
       {"name": "latencyMillis", "type": "VARINT"},
       {"name": "interface", "type": "STRING"}
