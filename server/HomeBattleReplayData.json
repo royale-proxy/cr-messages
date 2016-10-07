@@ -1,0 +1,8 @@
+{
+  "id": 24114,
+  "name": "HomeBattleReplayData",
+  "fields": [
+    {"type": "RRSINT32"},
+    {"name": "replay", "type": "ZIP_STRING"}
+  ]
+}

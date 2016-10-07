@@ -1,0 +1,7 @@
+{
+  "id": 24413,
+  "name": "BattleReportStream",
+  "fields": [
+    { "type": "INT" }
+  ]
+}

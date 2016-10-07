@@ -3,6 +3,6 @@
   "name": "RoyalTVContent",
   "fields": [
     {"name": "RoyaleTVEntry", "type": "RoyaleTVEntry[]", "lengthType": "BYTE"},
-    {"type": "LONG[42]", "comment": "336 bytes of nonsense starting with 36 05"}
+    {"name": "IgnoredBytes", "type": "IGNORE", "comment": "ignore rest of the nonsense starting with 36 05"}
   ]
 }
