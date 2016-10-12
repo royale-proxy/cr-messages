@@ -1,6 +1,10 @@
 {
     "spells": [
         {
+            "globalId": "26000000",
+            "name": "Knight"
+        },
+        {
             "globalId": "26000001",
             "name": "Archer"
         },
