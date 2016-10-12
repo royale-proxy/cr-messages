@@ -1,6 +1,6 @@
 {
   "id": 24111,
-  "name": "OpenChest",
+  "name": "AvailableServerCommand",
   "fields": [
     {"name": "userId", "type": "LONG"},
     {"name": "userToken", "type": "STRING"},

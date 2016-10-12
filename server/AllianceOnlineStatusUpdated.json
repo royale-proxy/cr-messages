@@ -1,0 +1,7 @@
+{
+  "id": 20207,
+  "name": "AllianceOnlineStatusUpdated",
+  "fields": [
+    {"name": "online", "type": "BYTE"}
+  ]
+}

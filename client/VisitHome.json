@@ -1,6 +1,6 @@
 {
   "id": 14113,
-  "name": "AskForProfile",
+  "name": "VisitHome",
   "fields": [
     {"name": "accountID.hi", "type": "INT"},
     {"name": "accountID.lo", "type": "INT"}

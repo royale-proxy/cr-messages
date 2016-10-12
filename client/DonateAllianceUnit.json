@@ -1,0 +1,13 @@
+{
+  "id": 14310,
+  "name": "DonateAllianceUnit",
+  "fields": [
+    {"name": "type", "type": "BYTE"},
+    {"name": "spell", "type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"name": "checksum", "type": "LONG"}
+  ]
+}
