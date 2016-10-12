@@ -2,7 +2,7 @@
   "id": 10107,
   "name": "ClientCapabilities",
   "fields": [
-      {"name": "latencyMillis", "type": "RRSINT32"},
-      {"name": "interface", "type": "STRING"}
+      {"name": "ping", "type": "RRSINT32"},
+      {"name": "connectionInterface", "type": "STRING"}
     ]
 }

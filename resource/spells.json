@@ -1,0 +1,252 @@
+{
+    "spells": [
+        {
+            "globalId": "26000001",
+            "name": "Archer"
+        },
+        {
+            "globalId": "26000002",
+            "name": "Goblins"
+        },
+        {
+            "globalId": "26000003",
+            "name": "Giant"
+        },
+        {
+            "globalId": "26000004",
+            "name": "Pekka"
+        },
+        {
+            "globalId": "26000005",
+            "name": "Minions"
+        },
+        {
+            "globalId": "26000006",
+            "name": "Balloon"
+        },
+        {
+            "globalId": "26000007",
+            "name": "Witch"
+        },
+        {
+            "globalId": "26000008",
+            "name": "Barbarians"
+        },
+        {
+            "globalId": "26000009",
+            "name": "Golem"
+        },
+        {
+            "globalId": "26000010",
+            "name": "Skeletons"
+        },
+        {
+            "globalId": "26000011",
+            "name": "Valkyrie"
+        },
+        {
+            "globalId": "26000012",
+            "name": "SkeletonArmy"
+        },
+        {
+            "globalId": "26000013",
+            "name": "Bomber"
+        },
+        {
+            "globalId": "26000014",
+            "name": "Musketeer"
+        },
+        {
+            "globalId": "26000015",
+            "name": "BabyDragon"
+        },
+        {
+            "globalId": "26000016",
+            "name": "Prince"
+        },
+        {
+            "globalId": "26000017",
+            "name": "Wizard"
+        },
+        {
+            "globalId": "26000018",
+            "name": "MiniPekka"
+        },
+        {
+            "globalId": "26000019",
+            "name": "SpearGoblins"
+        },
+        {
+            "globalId": "26000020",
+            "name": "GiantSkeleton"
+        },
+        {
+            "globalId": "26000021",
+            "name": "HogRider"
+        },
+        {
+            "globalId": "26000022",
+            "name": "MinionHorde"
+        },
+        {
+            "globalId": "26000023",
+            "name": "IceWizard"
+        },
+        {
+            "globalId": "26000024",
+            "name": "RoyalGiant"
+        },
+        {
+            "globalId": "26000025",
+            "name": "SkeletonWarriors"
+        },
+        {
+            "globalId": "26000026",
+            "name": "Princess"
+        },
+        {
+            "globalId": "26000027",
+            "name": "DarkPrince"
+        },
+        {
+            "globalId": "26000028",
+            "name": "ThreeMusketeers"
+        },
+        {
+            "globalId": "26000029",
+            "name": "LavaHound"
+        },
+        {
+            "globalId": "26000030",
+            "name": "IceSpirits"
+        },
+        {
+            "globalId": "26000031",
+            "name": "FireSpirits"
+        },
+        {
+            "globalId": "26000032",
+            "name": "Miner"
+        },
+        {
+            "globalId": "26000033",
+            "name": "ZapMachine"
+        },
+        {
+            "globalId": "26000034",
+            "name": "Bowler"
+        },
+        {
+            "globalId": "26000035",
+            "name": "RageBarbarian"
+        },
+        {
+            "globalId": "26000036",
+            "name": "NotInUse9"
+        },
+        {
+            "globalId": "26000037",
+            "name": "InfernoDragon"
+        },
+        {
+            "globalId": "26000038",
+            "name": "IceGolemite"
+        },
+        {
+            "globalId": "26000039",
+            "name": "MegaMinion"
+        },
+        {
+            "globalId": "28000000",
+            "name": "Fireball"
+        },
+        {
+            "globalId": "28000001",
+            "name": "Arrows"
+        },
+        {
+            "globalId": "28000002",
+            "name": "Rage"
+        },
+        {
+            "globalId": "28000003",
+            "name": "Rocket"
+        },
+        {
+            "globalId": "28000004",
+            "name": "GoblinBarrel"
+        },
+        {
+            "globalId": "28000005",
+            "name": "Freeze"
+        },
+        {
+            "globalId": "28000006",
+            "name": "Mirror"
+        },
+        {
+            "globalId": "28000007",
+            "name": "Lightning"
+        },
+        {
+            "globalId": "28000008",
+            "name": "Zap"
+        },
+        {
+            "globalId": "28000009",
+            "name": "Poison"
+        },
+        {
+            "globalId": "28000010",
+            "name": "Graveyard"
+        },
+        {
+            "globalId": "28000011",
+            "name": "Log"
+        },
+        {
+            "globalId": "27000000",
+            "name": "Cannon"
+        },
+        {
+            "globalId": "27000001",
+            "name": "GoblinHut"
+        },
+        {
+            "globalId": "27000002",
+            "name": "Mortar"
+        },
+        {
+            "globalId": "27000003",
+            "name": "InfernoTower"
+        },
+        {
+            "globalId": "27000004",
+            "name": "BombTower"
+        },
+        {
+            "globalId": "27000005",
+            "name": "BarbarianHut"
+        },
+        {
+            "globalId": "27000006",
+            "name": "Tesla"
+        },
+        {
+            "globalId": "27000007",
+            "name": "Elixir"
+        },
+        {
+            "globalId": "27000008",
+            "name": "Xbow"
+        },
+        {
+            "globalId": "27000009",
+            "name": "Tombstone"
+        },
+        {
+            "globalId": "27000010",
+            "name": "FirespiritHut"
+        }
+    ]
+}
