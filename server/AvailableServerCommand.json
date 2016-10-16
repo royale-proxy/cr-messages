@@ -2,26 +2,10 @@
   "id": 24111,
   "name": "AvailableServerCommand",
   "fields": [
-    {"name": "userId", "type": "LONG"},
-    {"name": "userToken", "type": "STRING"},
-    {"name": "majorVersion", "type": "INT"},
-    {"name": "masterHash", "type": "STRING"},
-    {"type": "INT"},
-    {"name": "openUdid", "type": "STRING"},
-    {"name": "mac", "type": "STRING"},
-    {"name": "phoneModel", "type": "STRING"},
-    {"type": "STRING"},
-    {"name": "osVersion", "type": "STRING"},
+    {"name": "command", "type": "ServerCommandComponent"},
     {"type": "BYTE"},
-    {"type": "INT"},
-    {"type": "STRING"},
-    {"name": "language", "type": "STRING"},
     {"type": "BYTE"},
-    {"type": "INT"},
-    {"type": "INT"},
     {"type": "BYTE"},
-    {"type": "LONG"},
-    {"type": "LONG"},
-    {"type": "LONG"}
+    {"type": "BYTE"}
   ]
 }

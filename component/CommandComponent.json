@@ -1,17 +1,161 @@
 {
   "name": "CommandComponent",
   "fields": [
-    {"name": "id", "type": "INT"}
+    {"name": "id", "type": "RRSINT32"}
   ],
   "extensions": [
     {
-      "id": 1027,
-      "comment": "share a Replay in Clan chat",
+      "id": 210,
+      "name": "Claim Reward",
       "fields": [
-        {"name":"ReplayId2", "type": "LONG"},
+        {"name": "chestItem", "type": "?ChestItem[]", "lengthType": "BYTE"},
+        {"name": "gold", "type": "RRSINT32"},
+        {"name": "gems", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"}
+      ]
+    },
+    { 
+      "id": 501,
+      "name": "Select Deck",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"name": "slot", "type": "BYTE"}
+      ]
+    },
+    { 
+      "id": 502,
+      "name": "Start Unlocking",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"name": "chestID", "type": "RRSINT32"}
+      ]
+    },
+    { 
+      "id": 503,
+      "name": "Start Reward Claim",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"type": "BYTE"}
+      ]
+    },
+    {
+      "id": 504,
+      "name": "Fuse Spells",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"name": "type", "type": "BYTE"},
+        {"name": "spell", "type": "BYTE"}
+      ]
+    },
+    {
+      "id": 505,
+      "name": "Speed Up Unlocking",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"name": "chestID", "type": "RRSINT32"},
+        {"name": "claimImmediately", "type": "BYTE"}
+      ]
+    },
+    {
+      "id": 509,
+      "name": "Collect Free Chest",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 511,
+      "name": "Collect Crown Chest",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 512,
+      "name": "Request Spells",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "quantity", "type": "BYTE"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "type", "type": "BYTE"},
+        {"name": "spell", "type": "BYTE"}
+      ]
+    },
+    {
+      "id": 513,
+      "name": "Spell Data Refreshed",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"type": "BYTE"},
+        {"name": "type", "type": "BYTE"},
+        {"name": "spell", "type": "BYTE"}
+      ]
+    },
+    {
+      "id": 515,
+      "name": "Share Replay",
+      "fields": [
+        {"name": "ReplayId2", "type": "LONG"},
         {"name": "messageFromPlayer", "type": "?STRING"},
-        {"type": "INT"},
-        {"type": "INT"}
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 526,
+      "name": "Collected Reward",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 537,
+      "name": "Join Challenge",
+      "fields": [
+        {"name": "tickStart", "type": "RRSINT32"},
+        {"name": "tickEnd", "type": "RRSINT32"},
+        {"name": "accountID.hi", "type": "RRSINT32"},
+        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"name": "mode", "type": "BYTE"}
       ]
     }
   ]

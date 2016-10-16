@@ -3,11 +3,11 @@
   "name": "SearchAlliances",
   "fields": [
     {"name": "searchString", "type": "STRING"},
-    {"name": "clanLocation", "type": "locationComponent"},
+    {"name": "desiredRegion", "type": "regionComponent"},
     {"name": "minMembers", "type": "INT"},
     {"name": "maxMembers", "type": "INT"},
-    {"name": "minClanPoints", "type": "INT"},
-    {"name": "onlyClanUserCanJoin", "type": "BOOLEAN"},
+    {"name": "minTrophies", "type": "INT"},
+    {"name": "findOnlyJoinableClans", "type": "BOOLEAN"},
     {"type": "INT"},
     {"type": "INT"}
   ]

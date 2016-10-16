@@ -1,0 +1,20 @@
+{
+  "name": "ServerCommandComponent",
+  "fields": [
+    {"name": "id", "type": "RRSINT32"}
+  ],
+  "extensions": [
+    {
+      "id": 210,
+      "name": "Treasure Chest Data",
+      "fields": [
+        {"name": "chestItem", "type": "?ChestItem[]", "lengthType": "BYTE"},
+        {"name": "gold", "type": "RRSINT32"},
+        {"name": "gems", "type": "RRSINT32"},
+        {"name": "chestId", "type": "RRSINT32"},
+        {"type": "BYTE"},
+        {"type": "BYTE"}
+      ]
+    }
+  ]
+}

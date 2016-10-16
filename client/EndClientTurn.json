@@ -2,8 +2,12 @@
   "id": 14102,
   "name": "EndClientTurn",
   "fields": [
-    {"name": "tick", "type": "INT32"},
-    {"name": "checksum", "type": "INT"},
-    {"name": "commands", "type": "CommandComponent[]", "lengthType": "BYTE"}
+    {"name": "tick", "type": "RRSINT32"},
+    {"name": "checksum", "type": "INT32"},
+    {"name": "commands", "type": "CommandComponent[]", "lengthType": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"}
   ]
 }

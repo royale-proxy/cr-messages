@@ -1,13 +1,13 @@
 {
-  "id": 14310,
-  "name": "DonateAllianceUnit",
+  "name": "ChestItem",
   "fields": [
     {"name": "type", "type": "BYTE"},
     {"name": "spell", "type": "BYTE"},
     {"type": "BYTE"},
+    {"type": "INT"},
+    {"name": "quantity", "type": "BYTE"},
     {"type": "BYTE"},
     {"type": "BYTE"},
-    {"type": "BYTE"},
-    {"name": "streamID", "type": "LONG"}
+    {"type": "BYTE"}
   ]
 }

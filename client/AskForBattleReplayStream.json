@@ -1,0 +1,8 @@
+{
+  "id": 14406,
+  "name": "AskForBattleReplayStream",
+  "fields": [
+    {"name": "accountID.hi", "type": "INT"},
+    {"name": "accountID.lo", "type": "INT"}
+  ]
+}
