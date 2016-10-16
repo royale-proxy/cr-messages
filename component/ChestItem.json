@@ -5,7 +5,7 @@
     {"name": "spell", "type": "BYTE"},
     {"type": "BYTE"},
     {"type": "INT"},
-    {"name": "quantity", "type": "BYTE"},
+    {"name": "quantity", "type": "RRSINT32"},
     {"type": "BYTE"},
     {"type": "BYTE"},
     {"type": "BYTE"}
