@@ -103,9 +103,9 @@
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "quantity", "type": "BYTE"},
         {"name": "accountID.lo", "type": "RRSINT32"},
         {"name": "accountID.hi", "type": "RRSINT32"},
+        {"type": "BYTE"},
         {"name": "type", "type": "BYTE"},
         {"name": "spell", "type": "BYTE"}
       ]
