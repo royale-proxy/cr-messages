@@ -14,9 +14,8 @@
       "id": 1,
       "name": "None",
       "fields": [
-        {"name": "replayShardId", "type": "INT"},
-        {"type": "BYTE"},
-        {"name": "replayId", "type": "INT"},
+        {"name": "replayShardId", "type": "BYTE"},
+        {"name": "replayId", "type": "LONG"},
         {"type": "BYTE"}
       ]
     }
