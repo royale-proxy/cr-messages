@@ -1,0 +1,24 @@
+{
+  "name": "ReplayComponent",
+  "fields": [
+    {"name": "id", "type": "BYTE"}
+  ],
+  "extensions": [
+    {
+      "id": 0,
+      "name": "None",
+      "fields": [
+        {"type": "BYTE"}
+      ]
+    },{
+      "id": 1,
+      "name": "None",
+      "fields": [
+        {"type": "BYTE"},
+        {"name": "replayShardId", "type": "INT"},
+        {"name": "replayId", "type": "INT"},
+        {"type": "BYTE"}
+      ]
+    }
+  ] 
+}
