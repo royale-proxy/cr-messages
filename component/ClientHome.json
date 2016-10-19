@@ -1,0 +1,6 @@
+{
+  "name": "ClientHome",
+  "fields": [
+    {"name": "id", "type": "BYTE"}
+  ]
+}
