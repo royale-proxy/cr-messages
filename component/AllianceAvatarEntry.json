@@ -1,0 +1,25 @@
+{
+    "name": "AllianceAvatarEntry",
+    "fields": [
+        {"name": "accountID.hi", "type": "INT"},
+        {"name": "accountID.lo", "type": "INT"},
+        {"type": "STRING"},
+        {"name": "playerName", "type": "STRING"},
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"name": "accessLevel", "type": "BYTE"},
+        {"name": "playerLevel", "type": "INT32"},
+        {"name": "trophies", "type": "RRSINT32"},
+        {"name": "donations", "type": "RRSINT32"},
+        {"type": "INT32"},
+        {"name": "currenRank", "type": "BYTE"},
+        {"name": "previousRank", "type": "BYTE"},
+        {"type": "INT32"},
+        {"type": "INT32"},
+        {"type": "INT32"},
+        {"type": "INT32"},
+        {"type": "BYTE"},
+        {"name": "accountID.hi2", "type": "INT"},
+        {"name": "accountID.lo2", "type": "INT"}
+    ]
+}
