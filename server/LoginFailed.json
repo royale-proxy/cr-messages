@@ -2,16 +2,14 @@
   "id": 20103,
   "name": "LoginFailed",
   "fields": [
-    {"name": "failureReason", "type": "INT"},
-    {"type": "STRING"},
-    {"name": "hostName", "type": "STRING"},
-    {"name": "downloadUrl", "type": "STRING"},
-    {"name": "appStoreUrl", "type": "STRING"},
-    {"name": "failureMessage", "type": "STRING"},
-    {"type": "INT"},
+    {"name": "errorCode", "type": "RRSINT32"},
+    {"name": "resourceFingerprintData", "type": "STRING"},
+    {"name": "redirectDomain", "type": "STRING"}, 
+    {"name": "contentURL", "type": "STRING"}, 
+    {"name": "updateURL", "type": "STRING"}, 
+    {"name": "reason", "type": "STRING"}, 
+    {"name": "secondsUntilMaintenanceEnd", "type": "RRSINT32"},
     {"type": "BYTE"},
-    {"name": "fingerPrint", "type": "ZIP_STRING"},
-    {"type": "STRING"},
-    {"type": "INT"}
+    {"type": "STRING"}
   ]
 }
