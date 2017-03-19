@@ -1,0 +1,8 @@
+{
+  "id": 16104,
+  "name": "AskForTournamentData",
+  "fields": [
+    {"name": "tournamentID.hi", "type": "INT"},
+    {"name": "tournamentID.lo", "type": "INT"}
+  ]
+}
