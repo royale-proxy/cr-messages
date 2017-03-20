@@ -1,0 +1,18 @@
+{
+    "name": "cr-messages",
+    "version": "1.0.0",
+    "description": "Clash Royale Network Message Definitions",
+    "homepage": "https://github.com/royale-proxy/cr-messages",
+    "bugs": {
+        "url": "https://github.com/royale-proxy/cr-messages/issues"
+    },
+    "author": "Royale Proxy",
+    "license": "GNU GPLv3",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/royale-proxy/cr-messages.git"
+    },
+    "engines": {
+        "node": ">=6.8.0"
+    }
+}
