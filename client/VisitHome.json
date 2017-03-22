@@ -2,7 +2,6 @@
   "id": 14113,
   "name": "VisitHome",
   "fields": [
-    {"name": "accountID.hi", "type": "INT"},
-    {"name": "accountID.lo", "type": "INT"}
+    {"name": "accountID", "type": "LONG"}
   ]
 }

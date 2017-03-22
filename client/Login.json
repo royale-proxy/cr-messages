@@ -25,6 +25,9 @@
     {"name": "appleIFV", "type": "STRING"},
     {"name": "appStore", "type": "RRSINT32"},
     {"name": "kunlunSSO", "type": "STRING"},
-    {"name": "kunlunUID", "type": "STRING"}
+    {"name": "kunlunUID", "type": "STRING"},
+    {"type": "STRING"},
+    {"type": "STRING"},
+    {"type": "BYTE"}
   ]
 }

@@ -3,10 +3,10 @@
   "name": "ClientHello",
   "fields": [
     {"name": "protocol", "type": "INT"},
+    {"name": "keyVersion", "type": "INT"},
     {"name": "majorVersion", "type": "INT"},
     {"name": "minorVersion", "type": "INT"},
     {"name": "build", "type": "INT"},
-    {"name": "minorVersion", "type": "INT"},
     {"name": "contentHash", "type": "STRING"},
     {"name": "deviceType", "type": "INT"},
     {"name": "appStore", "type": "INT"}

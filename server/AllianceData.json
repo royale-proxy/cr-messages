@@ -2,8 +2,7 @@
     "id": 24301,
     "name": "AllianceData",
     "fields": [
-        {"name": "allianceID.hi", "type": "INT"},
-        {"name": "allianceID.lo", "type": "INT"},
+        {"name": "allianceID", "type": "LONG"},
         {"name": "name", "type": "STRING"},
         {"name": "badgePrefix", "type": "BYTE"},
         {"name": "badge", "type": "RRSINT32"},
