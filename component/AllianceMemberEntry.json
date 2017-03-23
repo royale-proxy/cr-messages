@@ -1,14 +1,14 @@
 {
-    "name": "AllianceAvatarEntry",
+    "name": "AllianceMemberEntry",
     "fields": [
-        {"name": "accountID", "type": "LONG"},
-        {"type": "STRING"},
-        {"name": "playerName", "type": "STRING"},
+        {"name": "avatarId", "type": "LONG"},
+        {"name": "facebookId", "type": "STRING"},
+        {"name": "name", "type": "STRING"},
         {"name": "arenaPrefix", "type": "BYTE"},
         {"name": "arena", "type": "BYTE"},
-        {"name": "accessLevel", "type": "BYTE"},
-        {"name": "playerLevel", "type": "RRSINT32"},
-        {"name": "trophies", "type": "RRSINT32"},
+        {"name": "role", "type": "BYTE"},
+        {"name": "expLevel", "type": "RRSINT32"},
+        {"name": "score", "type": "RRSINT32"},
         {"name": "donations", "type": "RRSINT32"},
         {"type": "INT32"},
         {"name": "currenRank", "type": "BYTE"},
@@ -19,6 +19,6 @@
         {"type": "RRSINT32"},
         {"type": "BYTE"},
         {"type": "BYTE"},
-        {"name": "accountID2", "type": "LONG"}
+        {"name": "homeID", "type": "LONG"}
     ]
 }

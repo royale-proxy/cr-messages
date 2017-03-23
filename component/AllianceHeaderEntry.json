@@ -1,0 +1,24 @@
+{
+    "name": "AllianceHeaderEntry",
+    "fields": [
+        {"name": "Id", "type": "LONG"},
+        {"name": "name", "type": "STRING"},
+        {"name": "badgePrefix", "type": "BYTE"},
+        {"name": "badge", "type": "RRSINT32"},
+        {"name": "type", "type": "BYTE"},
+        {"name": "numberOfMembers", "type": "BYTE"},
+        {"name": "score", "type": "RRSINT32"},
+        {"name": "requiredScore", "type": "RRSINT32"},
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"name": "currenRank", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"name": "donations", "type": "RRSINT32"},
+        {"type": "RRSINT32"},
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"name": "region", "type": "RRSINT32"},
+        {"type": "BYTE"}
+    ]
+}
