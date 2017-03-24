@@ -1,0 +1,8 @@
+{
+  "id": 20206,
+  "name": "AvatarInGameStatusUpdated",
+  "fields": [
+    {"name": "avatarId", "type": "LONG"},
+    {"name": "status", "type": "BYTE"}
+  ]
+}
