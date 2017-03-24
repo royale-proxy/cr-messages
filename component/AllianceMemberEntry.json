@@ -13,7 +13,7 @@
         {"type": "INT32"},
         {"name": "currenRank", "type": "BYTE"},
         {"name": "previousRank", "type": "BYTE"},
-        {"type": "RRSINT32"},
+        {"name": "clanChestCrowns", "type": "RRSINT32"},
         {"type": "RRSINT32"},
         {"type": "RRSINT32"},
         {"type": "RRSINT32"},

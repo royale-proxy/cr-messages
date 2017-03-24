@@ -1,0 +1,7 @@
+{
+  "id": 20161,
+  "name": "ShutdownStarted",
+  "fields": [
+  	{ "name": "delay", "type": "RRSINT32" }
+  ]
+}
