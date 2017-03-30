@@ -1,0 +1,28 @@
+{
+  "name": "ChallengeDetails",
+  "fields": [
+      {"name": "id", "type": "RRSINT32"}
+  ],
+  "extensions": [
+      {
+          "id": 0,
+          "fields": [
+              {"name": "senderScore", "type": "RRSINT32"},
+              {"name": "tournamentMode", "type": "RRSINT32"},
+              {"name": "closed", "type": "RRSINT32"},
+              {"type": "BYTE"}
+          ]
+      },
+      {
+          "id": 1,
+          "fields": [
+              {"name": "responderName", "type": "STRING"},
+              {"name": "senderScore", "type": "RRSINT32"},
+              {"type": "BYTE"},
+              {"name": "tournamentMode", "type": "RRSINT32"},
+              {"name": "closed", "type": "RRSINT32"},
+              {"name": "responderId", "type": "LONG"}
+          ]
+      }
+  ]
+}
