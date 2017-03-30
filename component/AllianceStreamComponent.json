@@ -2,12 +2,9 @@
   "name": "AllianceStreamComponent",
   "fields": [
     {"name": "id", "type": "RRSINT32"},
-    {"name": "Id.hi", "type": "RRSINT32"},
-    {"name": "Id.lo", "type": "RRSINT32"},
-    {"name": "senderAvatarId.hi", "type": "RRSINT32"},
-    {"name": "senderAvatarId.lo", "type": "RRSINT32"},
-    {"name": "senderAvatarId.hi2", "type": "RRSINT32"},
-    {"name": "senderAvatarId.lo2", "type": "RRSINT32"},
+    {"name": "entryId", "type": "RRSLONG"},
+    {"name": "senderAvatarId", "type": "RRSLONG"},
+    {"name": "senderAvatarId2", "type": "RRSLONG"},
     {"name": "senderName", "type": "STRING"},
     {"name": "senderLevel", "type": "RRSINT32"},
     {"name": "senderRole", "type": "RRSINT32", "values": [
@@ -61,8 +58,7 @@
       "name": "AllianceEventStreamEntry",
       "fields": [
           {"name": "type", "type": "RRSINT32", "comment": "1=kicked,2=left,5=promoted?"},
-          {"name": "initatorId.hi", "type": "RRSINT32"},
-          {"name": "initiatorId.lo", "type": "RRSINT32"},
+          {"name": "initatorId", "type": "RRSLONG"},
           {"name": "initatorName", "type": "STRING"}
       ]
     },
