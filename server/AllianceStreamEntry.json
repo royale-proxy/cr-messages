@@ -1,0 +1,7 @@
+{
+  "id": 24312,
+  "name": "AllianceStreamEntry",
+  "fields": [
+    {"name": "entry", "type": "AllianceStreamComponent"}
+  ]
+}

@@ -1,8 +1,7 @@
 {
   "name": "ChestItem",
   "fields": [
-    {"name": "type", "type": "BYTE"},
-    {"name": "spell", "type": "BYTE"},
+    {"name": "type", "type": "SCID"},
     {"type": "BYTE"},
     {"type": "INT"},
     {"name": "quantity", "type": "RRSINT32"},

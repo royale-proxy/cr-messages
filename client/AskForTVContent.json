@@ -2,7 +2,6 @@
   "id": 14402,
   "name": "AskForTVContent",
   "fields": [
-    {"name": "arenaPrefix", "type": "BYTE"},
-    {"name": "Arena", "type": "BYTE"}
+    {"name": "arena", "type": "SCID"}
   ]
 }

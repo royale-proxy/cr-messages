@@ -1,0 +1,7 @@
+{
+  "id": 24318,
+  "name": "AllianceStreamRemoved",
+  "fields": [
+    {"name": "entryId", "type": "LONG"}
+  ]
+}

@@ -20,7 +20,7 @@
         {"name": "accountID.lo", "type": "RRSINT32"}
       ]
     },
-    { 
+    {
       "id": 501,
       "name": "Select Deck",
       "fields": [
@@ -31,7 +31,7 @@
         {"name": "slot", "type": "BYTE"}
       ]
     },
-    { 
+    {
       "id": 502,
       "name": "Start Unlocking",
       "fields": [
@@ -42,7 +42,7 @@
         {"name": "chestID", "type": "RRSINT32"}
       ]
     },
-    { 
+    {
       "id": 503,
       "name": "Start Reward Claim",
       "fields": [
@@ -61,8 +61,7 @@
         {"name": "tickEnd", "type": "RRSINT32"},
         {"name": "accountID.hi", "type": "RRSINT32"},
         {"name": "accountID.lo", "type": "RRSINT32"},
-        {"name": "type", "type": "BYTE"},
-        {"name": "spell", "type": "BYTE"}
+        {"name": "spell", "type": "SCID"}
       ]
     },
     {
@@ -106,8 +105,7 @@
         {"name": "accountID.lo", "type": "RRSINT32"},
         {"name": "accountID.hi", "type": "RRSINT32"},
         {"type": "BYTE"},
-        {"name": "type", "type": "BYTE"},
-        {"name": "spell", "type": "BYTE"}
+        {"name": "spell", "type": "SCID"}
       ]
     },
     {
@@ -119,8 +117,7 @@
         {"name": "accountID.hi", "type": "RRSINT32"},
         {"name": "accountID.lo", "type": "RRSINT32"},
         {"type": "BYTE"},
-        {"name": "type", "type": "BYTE"},
-        {"name": "spell", "type": "BYTE"}
+        {"name": "spell", "type": "SCID"}
       ]
     },
     {

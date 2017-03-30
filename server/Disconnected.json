@@ -2,6 +2,6 @@
   "id": 25892,
   "name": "Disconnected",
   "fields": [
-  	{ "type": "BYTE" }
+  	{ "type": "RRSINT32" }
   ]
 }

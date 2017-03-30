@@ -1,0 +1,7 @@
+{
+    "name": "DonationContainer",
+    "fields": [
+        {"name": "avatarId", "type": "LONG"},
+        {"name": "spells", "type": "RRSINT32[]"}
+    ]
+}

@@ -1,0 +1,111 @@
+{
+  "name": "AllianceStreamComponent",
+  "fields": [
+    {"name": "id", "type": "RRSINT32"},
+    {"name": "Id.hi", "type": "RRSINT32"},
+    {"name": "Id.lo", "type": "RRSINT32"},
+    {"name": "senderAvatarId.hi", "type": "RRSINT32"},
+    {"name": "senderAvatarId.lo", "type": "RRSINT32"},
+    {"name": "senderAvatarId.hi2", "type": "RRSINT32"},
+    {"name": "senderAvatarId.lo2", "type": "RRSINT32"},
+    {"name": "senderName", "type": "STRING"},
+    {"name": "senderLevel", "type": "RRSINT32"},
+    {"name": "senderRole", "type": "RRSINT32", "values": [
+        {"0": "Non-Member"},
+        {"1": "Member"},
+        {"2": "Leader"},
+        {"3": "Elder"},
+        {"4": "Co-Leader"}
+    ]},
+    {"name": "ageSeconds", "type": "RRSINT32"},
+    {"name": "isRemoved", "type": "BYTE"}
+  ],
+  "extensions": [
+    {
+      "id": 1,
+      "name": "DonateStreamEntry",
+      "fields": [
+          {"type": "RRSINT32"},
+          {"type": "RRSINT32"},
+          {"type": "RRSINT32"},
+          {"name": "capacity", "type": "RRSINT32"},
+          {"type": "RRSINT32"},
+          {"type": "RRSINT32"},
+          {"type": "RRSINT32"},
+          {"name": "donations", "type": "DonationContainer[]"},
+          {"name": "spellList", "type": "SpellList[]"},
+          {"type": "BYTE"},
+          {"type": "BYTE"},
+          {"type": "BYTE"},
+          {"type": "BYTE"}
+      ]
+    },
+    {
+      "id": 2,
+      "name": "ChatStreamEntry",
+      "fields": [
+          {"name": "message", "type": "STRING"}
+      ]
+    },
+    {
+      "id": 3,
+      "name": "JoinRequestAllianceStreamEntry",
+      "fields": [
+          {"name": "message", "type": "STRING"},
+          {"name": "responderName", "type": "STRING"},
+          {"name": "state", "type": "RRSINT32"}
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AllianceEventStreamEntry",
+      "fields": [
+          {"name": "type", "type": "RRSINT32", "comment": "1=kicked,2=left,5=promoted?"},
+          {"name": "initatorId.hi", "type": "RRSINT32"},
+          {"name": "initiatorId.lo", "type": "RRSINT32"},
+          {"name": "initatorName", "type": "STRING"}
+      ]
+    },
+    {
+      "id": 5,
+      "name": "ReplayStreamEntry",
+      "fields": [
+          {"type": "BYTE"},
+          {"name": "replayShardId", "type": "INT"},
+          {"name": "replayId", "type": "INT"},
+          {"name": "message", "type": "STRING"},
+          {"name": "battleJSON", "type": "STRING"},
+          {"name": "majorVersion", "type": "RRSINT32"},
+          {"name": "build", "type": "RRSINT32"},
+          {"name": "contentVersion", "type": "RRSINT32"},
+          {"name": "viewCount", "type": "RRSINT32"},
+          {"type": "BYTE"},
+          {"name": "arena", "type": "SCID"}
+      ]
+    },
+    {
+      "id": 10,
+      "name" :"ChallengeStreamEntry",
+      "fields": [
+          {"name": "message", "type": "STRING"},
+          {"name": "details", "type": "ChallengeDetails"},
+          {"type": "BYTE"}
+      ]
+    },
+    {
+      "id": 11,
+      "name": "ChallengeDoneStreamEntry",
+      "fields": [
+          {"name": "battleJSON", "type": "STRING"},
+          {"name": "majorVersion", "type": "RRSINT32"},
+          {"name": "build", "type": "RRSINT32"},
+          {"name": "contentVersion", "type": "RRSINT32"},
+          {"name": "viewCount", "type": "RRSINT32"},
+          {"name": "tournamentMode", "type": "RRSINT32"},
+          {"type": "BYTE"},
+          {"name": "replayShardId", "type": "INT"},
+          {"name": "replayId", "type": "INT"}
+      ]
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "name": "SearchAlliances",
   "fields": [
     {"name": "searchString", "type": "STRING"},
-    {"name": "desiredRegion", "type": "regionComponent"},
+    {"name": "desiredRegion", "type": "SCID"},
     {"name": "minMembers", "type": "INT"},
     {"name": "maxMembers", "type": "INT"},
     {"name": "minTrophies", "type": "INT"},

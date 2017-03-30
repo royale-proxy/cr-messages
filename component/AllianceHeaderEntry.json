@@ -3,8 +3,7 @@
     "fields": [
         {"name": "Id", "type": "LONG"},
         {"name": "name", "type": "STRING"},
-        {"name": "badgePrefix", "type": "BYTE"},
-        {"name": "badge", "type": "RRSINT32"},
+        {"name": "badge", "type": "SCID"},
         {"name": "type", "type": "BYTE"},
         {"name": "numberOfMembers", "type": "BYTE"},
         {"name": "score", "type": "RRSINT32"},
