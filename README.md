@@ -64,6 +64,10 @@ Five primitive types are defined.
 
 - **RRSINT32:** Obfuscated signed variable length integer. The encoding takes the first byte of the varint, rotates the 7 bits after MSB to the right by 1. The LSB is wrapped around and get put in the 7th bit. MSB value is preserved.
 
+- **RRSLONG:** Two RRSINT32 representing high/low.
+
+- **SCID:** Clash Royale uses ID like 60000000 for achievements. In packets, they often appear as two RRSINT32 (in this case, 0x3C00). You will find this in Regions, Cards and Arenas, etc. (Usually defined in a csv file -- row 0 is 60000000, and so on.)
+
 - **LONG:** Eight bytes, big-endian
 
 - **STRING:** An integer length, then a UTF-8 encoded string.
