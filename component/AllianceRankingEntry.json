@@ -1,0 +1,13 @@
+{
+    "name": "AllianceRankingEntry",
+    "fields": [
+        {"name": "allianceId", "type": "RRSLONG"},
+        {"name": "allianceName", "type": "STRING"},
+        {"name": "rank", "type": "RRSINT32"},
+        {"name": "score", "type": "RRSINT32"},
+        {"name": "previousRank", "type": "RRSINT32"},
+        {"name": "badge", "type": "SCID"},
+        {"name": "region", "type": "SCID"},
+        {"name": "numberOfMembers", "type": "RRSINT32"}
+    ]
+}

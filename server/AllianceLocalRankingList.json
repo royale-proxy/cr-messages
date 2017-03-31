@@ -1,0 +1,7 @@
+{
+    "id": 24402,
+    "name": "AllianceLocalRankingList",
+    "fields": [
+        {"name": "entries", "type": "AllianceRankingEntry[]", "lengthType": "INT"}
+    ]
+}
