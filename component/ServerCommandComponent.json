@@ -5,10 +5,24 @@
   ],
   "extensions": [
     {
-      "id": 210,
-      "name": "Treasure Chest Data",
+      "id": 206,
+      "name": "LogicJoinAllianceCommand (209)",
       "fields": [
-        {"name": "chestItem", "type": "?ChestItem[]", "lengthType": "BYTE"},
+          {"name": "allianceId", "type": "LONG"},
+          {"name": "name", "type": "STRING"},
+          {"name": "badge", "type": "SCID"},
+          {"type": "BYTE"},
+          {"name": "accepted", "type": "BYTE"}
+      ]
+    },
+    {
+      "id": 210,
+      "name": "LogicClaimRewardCommand (213)",
+      "fields": [
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"name": "chestItems", "type": "ChestItem[]", "lengthType": "BYTE"},
+        {"type": "BYTE"},
         {"name": "gold", "type": "RRSINT32"},
         {"name": "gems", "type": "RRSINT32"},
         {"name": "chestId", "type": "RRSINT32"},

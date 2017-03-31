@@ -1,9 +1,9 @@
 {
   "name": "ChestItem",
   "fields": [
-    {"name": "type", "type": "SCID"},
+    {"name": "card", "type": "RRSINT32"},
     {"type": "BYTE"},
-    {"type": "INT"},
+    {"type": "RRSINT32"},
     {"name": "quantity", "type": "RRSINT32"},
     {"type": "BYTE"},
     {"type": "BYTE"},

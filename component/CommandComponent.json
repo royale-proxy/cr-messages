@@ -5,98 +5,109 @@
   ],
   "extensions": [
     {
-      "id": 210,
-      "name": "Claim Reward",
+      "id": 205,
+      "name": "LogicLeaveAllianceCommand (208)",
       "fields": [
-        {"name": "chestItem", "type": "?ChestItem[]", "lengthType": "BYTE"},
+          {"name": "allianceId", "type": "LONG"},
+          {"type": "BYTE"},
+          {"type": "RRSINT32"},
+          {"name": "tickStart", "type": "RRSINT32"},
+          {"name": "tickEnd", "type": "RRSINT32"},
+          {"type": "accountId", "type": "RRSLONG"}
+      ]
+    },
+    {
+      "id": 210,
+      "name": "LogicClaimRewardCommand (213)",
+      "fields": [
+        {"name": "chestItem", "type": "ChestItem[]", "lengthType": "BYTE"},
         {"name": "gold", "type": "RRSINT32"},
         {"name": "gems", "type": "RRSINT32"},
-        {"type": "RRSINT32"},
+        {"name": "chestId", "type": "RRSINT32"},
         {"type": "RRSINT32"},
         {"type": "RRSINT32"},
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"}
+        {"name": "accountId", "type": "RRSLONG"}
       ]
     },
     {
       "id": 501,
-      "name": "Select Deck",
+      "name": "LogicSelectDeckCommand (501)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"},
+        {"name": "accountId", "type": "RRSLONG"},
         {"name": "slot", "type": "BYTE"}
       ]
     },
     {
       "id": 502,
-      "name": "Start Unlocking",
+      "name": "LogicStartExploringCommand (502)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"},
-        {"name": "chestID", "type": "RRSINT32"}
+        {"name": "accountId", "type": "RRSLONG"},
+        {"name": "chestId", "type": "RRSINT32"}
       ]
     },
     {
       "id": 503,
-      "name": "Start Reward Claim",
+      "name": "LogicStartRewardClaimCommand (503)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
         {"name": "accountID", "type": "RRSLONG"},
-        {"type": "BYTE"}
+        {"name": "chestId", "type": "RRSINT32"}
       ]
     },
     {
       "id": 504,
-      "name": "Fuse Spells",
+      "name": "LogicFuseSpellsCommand (504)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"},
+        {"name": "accountId", "type": "RRSLONG"},
         {"name": "spell", "type": "SCID"}
       ]
     },
     {
       "id": 505,
-      "name": "Speed Up Unlocking",
+      "name": "LogicSpeedUpExploringCommand (506)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"},
-        {"name": "chestID", "type": "RRSINT32"},
+        {"name": "accountId", "type": "RRSLONG"},
+        {"name": "chestId", "type": "RRSINT32"},
         {"name": "claimImmediately", "type": "BYTE"}
       ]
     },
     {
       "id": 509,
-      "name": "Collect Free Chest",
+      "name": "LogicCollectFreeChestCommand (518)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"}
+        {"name": "accountId", "type": "RRSLONG"}
       ]
     },
     {
       "id": 511,
-      "name": "Collect Crown Chest",
+      "name": "LogicCollectMultiWinChestCommand (523)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"}
+        {"name": "accountId", "type": "RRSLONG"}
       ]
     },
     {
       "id": 512,
-      "name": "Request Spells",
+      "name": "LogicRequestSpellsCommand (524)",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"},
-        {"type": "BYTE"},
-        {"name": "spell", "type": "SCID"}
+        {"name": "accountId", "type": "RRSLONG"},
+        {"name": "wishList", "type": "SCID"}
       ]
     },
     {
@@ -105,21 +116,30 @@
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID.hi", "type": "RRSINT32"},
-        {"name": "accountID.lo", "type": "RRSINT32"},
+        {"name": "accountId", "type": "RRSLONG"},
         {"type": "BYTE"},
         {"name": "spell", "type": "SCID"}
       ]
     },
     {
       "id": 515,
-      "name": "Share Replay",
+      "name": "LogicShareReplayCommand (527)",
       "fields": [
-        {"name": "ReplayId2", "type": "LONG"},
-        {"name": "messageFromPlayer", "type": "?STRING"},
+        {"name": "battleEntryId", "type": "LONG"},
+        {"name": "message", "type": "?STRING"},
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"}
+        {"name": "accountId", "type": "RRSLONG"}
+      ]
+    },
+    {
+      "id": 523,
+      "name": "LogicClaimAchievementRewardCommand (535)",
+      "fields": [
+        {"name": "achievement", "type": "SCID"},
+        {"type": "BYTE"},
+        {"type": "BYTE"},
+        {"name": "accountId", "type": "RRSLONG"}
       ]
     },
     {
@@ -128,19 +148,19 @@
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
-        {"name": "accountID", "type": "RRSLONG"}
+        {"name": "accountId", "type": "RRSLONG"}
       ]
     },
     {
       "id": 537,
-      "name": "Join Challenge",
+      "name": "LogicChallengeCommand",
       "fields": [
         {"name": "tickStart", "type": "RRSINT32"},
         {"name": "tickEnd", "type": "RRSINT32"},
         {"name": "accountID", "type": "RRSLONG"},
         {"type": "BYTE"},
         {"type": "BYTE"},
-        {"name": "mode", "type": "BYTE"}
+        {"name": "tournamentMode", "type": "BYTE"}
       ]
     }
   ]

@@ -1,0 +1,11 @@
+{
+  "id": 14305,
+  "name": "JoinAlliance",
+  "fields": [
+    {"name": "allianceId", "type": "LONG"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"},
+    {"type": "BYTE"}
+  ]
+}
