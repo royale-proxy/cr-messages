@@ -2,7 +2,6 @@
     "name": "AllianceMemberEntry",
     "fields": [
         {"name": "avatarId", "type": "LONG"},
-        {"name": "facebookId", "type": "STRING"},
         {"name": "name", "type": "STRING"},
         {"name": "arena", "type": "SCID"},
         {"name": "role", "type": "BYTE"},
