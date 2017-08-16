@@ -7,7 +7,7 @@
     {"type": "BYTE"},
     {"name": "opponentID", "type": "LONG"},
     {"name": "opponentName", "type": "STRING"},
-    {"type": "BYTE"},
+    {"name": "opponentLevel", "type": "BYTE"},
     {"name": "ageSeconds", "type": "RRSINT32"},
     {"type": "BYTE"},
     {"name": "json", "type": "STRING"},
