@@ -1,5 +1,5 @@
 {
-  "id": 14102,
+  "id": 11688,
   "name": "EndClientTurn",
   "fields": [
     {"name": "tick", "type": "RRSINT32"},

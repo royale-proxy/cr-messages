@@ -1,5 +1,5 @@
 {
-  "id": 14106,
+  "id": 16604,
   "name": "askForLiveBattle",
   "fields": [
     {"name": "liveBattleId", "type": "LONG"}
