@@ -1,5 +1,5 @@
 {
-  "id": 24111,
+  "id": 23394,
   "name": "AvailableServerCommand",
   "fields": [
     {"name": "command", "type": "ServerCommandComponent"},

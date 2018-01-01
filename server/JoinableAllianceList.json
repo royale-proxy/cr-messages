@@ -1,5 +1,5 @@
 {
-    "id": 24304,
+    "id": 25445,
     "name": "JoinableAllianceList",
     "fields": [
         {"name": "alliances", "type": "AllianceHeaderEntry[]", "lengthType": "RRSINT32"}

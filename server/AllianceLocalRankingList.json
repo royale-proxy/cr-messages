@@ -1,5 +1,5 @@
 {
-    "id": 24402,
+    "id": 26973,
     "name": "AllianceLocalRankingList",
     "fields": [
         {"name": "entries", "type": "AllianceRankingEntry[]", "lengthType": "INT"}

@@ -5,8 +5,8 @@
   ],
   "extensions": [
     {
-      "id": 206,
-      "name": "LogicJoinAllianceCommand (209)",
+      "id": 263,
+      "name": "LogicJoinAllianceCommand",
       "fields": [
           {"name": "allianceId", "type": "LONG"},
           {"name": "name", "type": "STRING"},

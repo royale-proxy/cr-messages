@@ -1,5 +1,5 @@
 {
-  "id": 24405,
+  "id": 20073,
   "name": "RoyalTVContent",
   "fields": [
     {"name": "RoyaleTVEntry", "type": "RoyaleTVEntry[]", "lengthType": "BYTE"},

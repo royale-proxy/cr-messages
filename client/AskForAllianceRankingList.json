@@ -1,5 +1,5 @@
 {
-  "id": 14401,
+  "id": 14171,
   "name": "AskForAllianceRankingList",
   "fields": [
     {"name": "region", "type": "BYTE","comment":"general or local"}

@@ -1,5 +1,5 @@
 {
-  "id": 14305,
+  "id": 16190,
   "name": "JoinAlliance",
   "fields": [
     {"name": "allianceId", "type": "LONG"},

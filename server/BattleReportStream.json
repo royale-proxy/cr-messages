@@ -1,5 +1,5 @@
 {
-  "id": 24413,
+  "id": 20032,
   "name": "BattleReportStream",
   "fields": [
     {"name": "accountID", "type": "LONG"},
